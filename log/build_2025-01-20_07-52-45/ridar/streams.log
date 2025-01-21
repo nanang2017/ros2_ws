@@ -1,0 +1,26 @@
+[0.534s] Invoking command in '/home/hwan/ros2_learn_2/src/ridar': PYTHONPATH=/home/hwan/ros2_learn_2/build/ridar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ridar build --build-base /home/hwan/ros2_learn_2/build/ridar/build install --record /home/hwan/ros2_learn_2/build/ridar/install.log --install-scripts $base/lib/ridar --single-version-externally-managed install_data
+[0.691s] running egg_info
+[0.692s] writing ../../build/ridar/ridar.egg-info/PKG-INFO
+[0.693s] writing dependency_links to ../../build/ridar/ridar.egg-info/dependency_links.txt
+[0.694s] writing entry points to ../../build/ridar/ridar.egg-info/entry_points.txt
+[0.694s] writing requirements to ../../build/ridar/ridar.egg-info/requires.txt
+[0.696s] writing top-level names to ../../build/ridar/ridar.egg-info/top_level.txt
+[0.720s] reading manifest file '../../build/ridar/ridar.egg-info/SOURCES.txt'
+[0.720s] writing manifest file '../../build/ridar/ridar.egg-info/SOURCES.txt'
+[0.721s] running build
+[0.721s] running build_py
+[0.721s] running install
+[0.722s] running install_lib
+[0.723s] running install_data
+[0.724s] copying launch/robot_1.launch.py -> /home/hwan/ros2_learn_2/install/ridar/share/ridar/launch
+[0.724s] copying launch/robot_2.launch.py -> /home/hwan/ros2_learn_2/install/ridar/share/ridar/launch
+[0.734s] copying launch/lidar.launch.py -> /home/hwan/ros2_learn_2/install/ridar/share/ridar/launch
+[0.734s] copying urdf/my_robot_1.xacro -> /home/hwan/ros2_learn_2/install/ridar/share/ridar/urdf
+[0.735s] copying urdf/my_robot_2.xacro -> /home/hwan/ros2_learn_2/install/ridar/share/ridar/urdf
+[0.735s] copying urdf/macros.xacro -> /home/hwan/ros2_learn_2/install/ridar/share/ridar/urdf
+[0.735s] running install_egg_info
+[0.736s] removing '/home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages/ridar-0.0.0-py3.8.egg-info' (and everything under it)
+[0.740s] Copying ../../build/ridar/ridar.egg-info to /home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages/ridar-0.0.0-py3.8.egg-info
+[0.744s] running install_scripts
+[0.771s] writing list of installed files to '/home/hwan/ros2_learn_2/build/ridar/install.log'
+[0.798s] Invoked command in '/home/hwan/ros2_learn_2/src/ridar' returned '0': PYTHONPATH=/home/hwan/ros2_learn_2/build/ridar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ridar build --build-base /home/hwan/ros2_learn_2/build/ridar/build install --record /home/hwan/ros2_learn_2/build/ridar/install.log --install-scripts $base/lib/ridar --single-version-externally-managed install_data
