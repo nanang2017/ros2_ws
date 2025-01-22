@@ -1,0 +1,58 @@
+[3.462s] Invoking command in '/home/kisangpark/ros2_ws/src/gazebo_tutorial': PYTHONPATH=/home/kisangpark/ros2_ws/build/gazebo_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gazebo_tutorial build --build-base /home/kisangpark/ros2_ws/build/gazebo_tutorial/build install --record /home/kisangpark/ros2_ws/build/gazebo_tutorial/install.log --single-version-externally-managed install_data
+[4.585s] running egg_info
+[4.587s] creating ../../build/gazebo_tutorial/gazebo_tutorial.egg-info
+[4.588s] writing ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/PKG-INFO
+[4.589s] writing dependency_links to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/dependency_links.txt
+[4.589s] writing entry points to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/entry_points.txt
+[4.590s] writing requirements to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/requires.txt
+[4.591s] writing top-level names to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/top_level.txt
+[4.591s] writing manifest file '../../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'
+[4.603s] reading manifest file '../../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'
+[4.610s] writing manifest file '../../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'
+[4.612s] running build
+[4.613s] running build_py
+[4.615s] creating /home/kisangpark/ros2_ws/build/gazebo_tutorial/build
+[4.615s] creating /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib
+[4.615s] creating /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial
+[4.615s] copying gazebo_tutorial/node_perplexity.py -> /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial
+[4.615s] copying gazebo_tutorial/node_test.py -> /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial
+[4.617s] copying gazebo_tutorial/__init__.py -> /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial
+[4.617s] running install
+[4.618s] running install_lib
+[4.619s] creating /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial
+[4.620s] copying /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial/node_perplexity.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial
+[4.620s] copying /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial/node_test.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial
+[4.620s] copying /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial/__init__.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial
+[4.621s] byte-compiling /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial/node_perplexity.py to node_perplexity.cpython-310.pyc
+[4.623s] byte-compiling /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial/node_test.py to node_test.cpython-310.pyc
+[4.626s] byte-compiling /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial/__init__.py to __init__.cpython-310.pyc
+[4.627s] running install_data
+[4.628s] creating /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/ament_index
+[4.629s] creating /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/ament_index/resource_index
+[4.630s] creating /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/ament_index/resource_index/packages
+[4.631s] copying resource/gazebo_tutorial -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/ament_index/resource_index/packages
+[4.632s] copying package.xml -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial
+[4.635s] creating /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/launch
+[4.635s] copying launch/robot.launch.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/launch
+[4.636s] copying launch/gazebo.launch.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/launch
+[4.636s] copying launch/gazebo_spawn.launch.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/launch
+[4.636s] creating /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.636s] copying vision60/chassis2.mtl -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.638s] copying vision60/tmotor3.obj -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.640s] copying vision60/tmotor.blend -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.644s] copying vision60/t-motor.jpg -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.650s] copying vision60/chassis.obj -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.653s] copying vision60/vision60_single.urdf -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.653s] copying vision60/chassis.mtl -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.655s] copying vision60/chassis2.obj -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.659s] copying vision60/vision.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.660s] copying vision60/model.config -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.661s] copying vision60/checker_blue.png -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.663s] copying vision60/vision60.urdf -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.665s] copying vision60/tmotor3.mtl -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[4.666s] running install_egg_info
+[4.673s] Copying ../../build/gazebo_tutorial/gazebo_tutorial.egg-info to /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial-0.0.0-py3.10.egg-info
+[4.673s] running install_scripts
+[4.758s] Installing node_test script to /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/gazebo_tutorial
+[4.760s] writing list of installed files to '/home/kisangpark/ros2_ws/build/gazebo_tutorial/install.log'
+[4.868s] Invoked command in '/home/kisangpark/ros2_ws/src/gazebo_tutorial' returned '0': PYTHONPATH=/home/kisangpark/ros2_ws/build/gazebo_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gazebo_tutorial build --build-base /home/kisangpark/ros2_ws/build/gazebo_tutorial/build install --record /home/kisangpark/ros2_ws/build/gazebo_tutorial/install.log --single-version-externally-managed install_data

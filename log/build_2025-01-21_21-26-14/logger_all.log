@@ -1,0 +1,151 @@
+[0.827s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ridar']
+[0.828s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ridar'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f0a71651660>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0a717cadd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0a717cadd0>>, mixin_verb=('build',))
+[2.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.335s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kisangpark/ros2_ws'
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_tutorial) by extension 'ignore'
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_tutorial) by extension 'ignore_ament_install'
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_tutorial) by extensions ['colcon_pkg']
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_tutorial) by extension 'colcon_pkg'
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_tutorial) by extensions ['colcon_meta']
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_tutorial) by extension 'colcon_meta'
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_tutorial) by extensions ['ros']
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_tutorial) by extension 'ros'
+[2.424s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_tutorial' with type 'ros.ament_python' and name 'gazebo_tutorial'
+[2.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extensions ['ignore', 'ignore_ament_install']
+[2.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extension 'ignore'
+[2.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extension 'ignore_ament_install'
+[2.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extensions ['colcon_pkg']
+[2.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extension 'colcon_pkg'
+[2.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extensions ['colcon_meta']
+[2.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extension 'colcon_meta'
+[2.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extensions ['ros']
+[2.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extension 'ros'
+[2.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extensions ['cmake', 'python']
+[2.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extension 'cmake'
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extension 'python'
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extensions ['python_setup_py']
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/nani) by extension 'python_setup_py'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ridar) by extensions ['ignore', 'ignore_ament_install']
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ridar) by extension 'ignore'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ridar) by extension 'ignore_ament_install'
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/ridar) by extensions ['colcon_pkg']
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/ridar) by extension 'colcon_pkg'
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/ridar) by extensions ['colcon_meta']
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/ridar) by extension 'colcon_meta'
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/ridar) by extensions ['ros']
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/ridar) by extension 'ros'
+[2.433s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ridar' with type 'ros.ament_python' and name 'ridar'
+[2.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.584s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gazebo_tutorial' in 'src/gazebo_tutorial'
+[2.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.606s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/humble
+[2.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.789s] Level 5:colcon.colcon_core.verb:set package 'ridar' build argument 'cmake_args' from command line to 'None'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'ridar' build argument 'cmake_target' from command line to 'None'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'ridar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'ridar' build argument 'cmake_clean_cache' from command line to 'False'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'ridar' build argument 'cmake_clean_first' from command line to 'False'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'ridar' build argument 'cmake_force_configure' from command line to 'False'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'ridar' build argument 'ament_cmake_args' from command line to 'None'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'ridar' build argument 'catkin_cmake_args' from command line to 'None'
+[2.791s] Level 5:colcon.colcon_core.verb:set package 'ridar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.791s] DEBUG:colcon.colcon_core.verb:Building package 'ridar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kisangpark/ros2_ws/build/ridar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kisangpark/ros2_ws/install/ridar', 'merge_install': False, 'path': '/home/kisangpark/ros2_ws/src/ridar', 'symlink_install': False, 'test_result_base': None}
+[2.791s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.798s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.799s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kisangpark/ros2_ws/src/ridar' with build type 'ament_python'
+[2.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('ridar', 'ament_prefix_path')
+[2.829s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kisangpark/ros2_ws/install/ridar/share/ridar/hook/ament_prefix_path.ps1'
+[2.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kisangpark/ros2_ws/install/ridar/share/ridar/hook/ament_prefix_path.dsv'
+[2.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kisangpark/ros2_ws/install/ridar/share/ridar/hook/ament_prefix_path.sh'
+[2.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.847s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.953s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kisangpark/ros2_ws/src/ridar'
+[3.954s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.954s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kisangpark/ros2_ws/src/ridar': PYTHONPATH=/home/kisangpark/ros2_ws/build/ridar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/ridar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ridar build --build-base /home/kisangpark/ros2_ws/build/ridar/build install --record /home/kisangpark/ros2_ws/build/ridar/install.log --install-scripts $base/lib/ridar --single-version-externally-managed install_data
+[7.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kisangpark/ros2_ws/src/ridar' returned '0': PYTHONPATH=/home/kisangpark/ros2_ws/build/ridar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/ridar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ridar build --build-base /home/kisangpark/ros2_ws/build/ridar/build install --record /home/kisangpark/ros2_ws/build/ridar/install.log --install-scripts $base/lib/ridar --single-version-externally-managed install_data
+[7.437s] Level 1:colcon.colcon_core.environment:checking '/home/kisangpark/ros2_ws/install/ridar' for CMake module files
+[7.439s] Level 1:colcon.colcon_core.environment:checking '/home/kisangpark/ros2_ws/install/ridar' for CMake config files
+[7.441s] Level 1:colcon.colcon_core.environment:checking '/home/kisangpark/ros2_ws/install/ridar/lib'
+[7.442s] Level 1:colcon.colcon_core.environment:checking '/home/kisangpark/ros2_ws/install/ridar/bin'
+[7.442s] Level 1:colcon.colcon_core.environment:checking '/home/kisangpark/ros2_ws/install/ridar/lib/pkgconfig/ridar.pc'
+[7.443s] Level 1:colcon.colcon_core.environment:checking '/home/kisangpark/ros2_ws/install/ridar/lib/python3.10/site-packages'
+[7.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('ridar', 'pythonpath')
+[7.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kisangpark/ros2_ws/install/ridar/share/ridar/hook/pythonpath.ps1'
+[7.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kisangpark/ros2_ws/install/ridar/share/ridar/hook/pythonpath.dsv'
+[7.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kisangpark/ros2_ws/install/ridar/share/ridar/hook/pythonpath.sh'
+[7.451s] Level 1:colcon.colcon_core.environment:checking '/home/kisangpark/ros2_ws/install/ridar/bin'
+[7.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ridar)
+[7.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/kisangpark/ros2_ws/install/ridar/share/ridar/package.ps1'
+[7.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kisangpark/ros2_ws/install/ridar/share/ridar/package.dsv'
+[7.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/kisangpark/ros2_ws/install/ridar/share/ridar/package.sh'
+[7.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/kisangpark/ros2_ws/install/ridar/share/ridar/package.bash'
+[7.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/kisangpark/ros2_ws/install/ridar/share/ridar/package.zsh'
+[7.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kisangpark/ros2_ws/install/ridar/share/colcon-core/packages/ridar)
+[7.473s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.474s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.474s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.474s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.509s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.614s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.615s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kisangpark/ros2_ws/install/local_setup.ps1'
+[7.622s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kisangpark/ros2_ws/install/_local_setup_util_ps1.py'
+[7.634s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kisangpark/ros2_ws/install/setup.ps1'
+[7.638s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kisangpark/ros2_ws/install/local_setup.sh'
+[7.645s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kisangpark/ros2_ws/install/_local_setup_util_sh.py'
+[7.650s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kisangpark/ros2_ws/install/setup.sh'
+[7.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kisangpark/ros2_ws/install/local_setup.bash'
+[7.670s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kisangpark/ros2_ws/install/setup.bash'
+[7.674s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kisangpark/ros2_ws/install/local_setup.zsh'
+[7.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kisangpark/ros2_ws/install/setup.zsh'

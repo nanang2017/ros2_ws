@@ -1,0 +1,22 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/ridar/ridar.egg-info/PKG-INFO
+writing dependency_links to ../../build/ridar/ridar.egg-info/dependency_links.txt
+writing entry points to ../../build/ridar/ridar.egg-info/entry_points.txt
+writing requirements to ../../build/ridar/ridar.egg-info/requires.txt
+writing top-level names to ../../build/ridar/ridar.egg-info/top_level.txt
+reading manifest file '../../build/ridar/ridar.egg-info/SOURCES.txt'
+writing manifest file '../../build/ridar/ridar.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/kisangpark/ros2_ws/install/ridar/lib/python3.10/site-packages/ridar
+copying /home/kisangpark/ros2_ws/build/ridar/build/lib/ridar/__init__.py -> /home/kisangpark/ros2_ws/install/ridar/lib/python3.10/site-packages/ridar
+byte-compiling /home/kisangpark/ros2_ws/install/ridar/lib/python3.10/site-packages/ridar/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/ridar/ridar.egg-info to /home/kisangpark/ros2_ws/install/ridar/lib/python3.10/site-packages/ridar-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kisangpark/ros2_ws/build/ridar/install.log'

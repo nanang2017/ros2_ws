@@ -1,9 +1,3 @@
-#specifications
-"""
-get topic from robot_state_publisher & control
-topics to control: joint_states, robot_description
-"""
-
 #1. urdf parsing
 from urdf_parser_py.urdf import URDF
 import os
@@ -43,8 +37,12 @@ till here -> error code
 {'8': 'revolute', '0': 'revolute', '1': 'revolute', '9': 'revolute', '2': 'revolute', '3': 'revolute', '10': 'revolute', '4': 'revolute', '5': 'revolute', '11': 'revolute', '6': 'revolute', '7': 'revolute'}
 {'8': {'lower': -0.43, 'upper': 0.43, 'effort': 375.0, 'velocity': 8.6}, '0': {'lower': -3.14159265359, 'upper': 3.14159265359, 'effort': 87.5, 'velocity': 30.0}, '1': {'lower': 0.0, 'upper': 3.14159265359, 'effort': 87.5, 'velocity': 30.0}, '9': {'lower': -0.43, 'upper': 0.43, 'effort': 375.0, 'velocity': 8.6}, '2': {'lower': -3.14159265359, 'upper': 3.14159265359, 'effort': 87.5, 'velocity': 30.0}, '3': {'lower': 0.0, 'upper': 3.14159265359, 'effort': 87.5, 'velocity': 30.0}, '10': {'lower': -0.43, 'upper': 0.43, 'effort': 375.0, 'velocity': 8.6}, '4': {'lower': -3.14159265359, 'upper': 3.14159265359, 'effort': 87.5, 'velocity': 30.0}, '5': {'lower': 0.0, 'upper': 3.14159265359, 'effort': 87.5, 'velocity': 30.0}, '11': {'lower': -0.43, 'upper': 0.43, 'effort': 375.0, 'velocity': 8.6}, '6': {'lower': -3.14159265359, 'upper': 3.14159265359, 'effort': 87.5, 'velocity': 30.0}, '7': {'lower': 0.0, 'upper': 3.14159265359, 'effort': 87.5, 'velocity': 30.0}}
 
+"""
 
-['8', '0', '1', '9', '2', '3', '10', '4', '5', '11', '6', '7']
+#specifications
+"""
+get random position value from np.random
+compare it to the joint_limits & cut values
 
 """
 

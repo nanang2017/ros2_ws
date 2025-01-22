@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.001522] (-) JobUnselected: {'identifier': 'ridar'}
+[0.001772] (gazebo_tutorial) JobQueued: {'identifier': 'gazebo_tutorial', 'dependencies': OrderedDict()}
+[0.004641] (gazebo_tutorial) JobStarted: {'identifier': 'gazebo_tutorial'}
+[0.100238] (-) TimerEvent: {}
+[0.202675] (-) TimerEvent: {}
+[0.304452] (-) TimerEvent: {}
+[0.406237] (-) TimerEvent: {}
+[0.507666] (-) TimerEvent: {}
+[0.609593] (-) TimerEvent: {}
+[0.711413] (-) TimerEvent: {}
+[0.812415] (-) TimerEvent: {}
+[0.913355] (-) TimerEvent: {}
+[1.015520] (-) TimerEvent: {}
+[1.116700] (-) TimerEvent: {}
+[1.217880] (-) TimerEvent: {}
+[1.319022] (-) TimerEvent: {}
+[1.420151] (-) TimerEvent: {}
+[1.522136] (-) TimerEvent: {}
+[1.623576] (-) TimerEvent: {}
+[1.724846] (-) TimerEvent: {}
+[1.826717] (-) TimerEvent: {}
+[1.928035] (-) TimerEvent: {}
+[2.029131] (-) TimerEvent: {}
+[2.129855] (-) TimerEvent: {}
+[2.231947] (-) TimerEvent: {}
+[2.333547] (-) TimerEvent: {}
+[2.434628] (-) TimerEvent: {}
+[2.535778] (-) TimerEvent: {}
+[2.638056] (-) TimerEvent: {}
+[2.739870] (-) TimerEvent: {}
+[2.840730] (-) TimerEvent: {}
+[2.942187] (-) TimerEvent: {}
+[3.043515] (-) TimerEvent: {}
+[3.145345] (-) TimerEvent: {}
+[3.246603] (-) TimerEvent: {}
+[3.348781] (-) TimerEvent: {}
+[3.451805] (-) TimerEvent: {}
+[3.455697] (gazebo_tutorial) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gazebo_tutorial', 'build', '--build-base', '/home/kisangpark/ros2_ws/build/gazebo_tutorial/build', 'install', '--record', '/home/kisangpark/ros2_ws/build/gazebo_tutorial/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kisangpark/ros2_ws/src/gazebo_tutorial', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'kisangpark', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kisangpark', 'OLDPWD': '/home/kisangpark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1647', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a3802e76b582293cefc4e404678f2f44', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kisangpark/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kisangpark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kisangpark', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kisangpark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ROS2:@/tmp/.ICE-unix/1647,unix/ROS2:/tmp/.ICE-unix/1647', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4db1b8d0_eb62_4651_8406_bf9283c8babc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PZGD02', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.915', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kisangpark/ros2_ws/install/ridar:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kisangpark/ros2_ws/build/gazebo_tutorial', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a3802e76b582293cefc4e404678f2f44', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kisangpark/ros2_ws/build/gazebo_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages:/home/kisangpark/ros2_ws/install/ridar/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.552516] (-) TimerEvent: {}
+[3.654062] (-) TimerEvent: {}
+[3.757876] (-) TimerEvent: {}
+[3.859702] (-) TimerEvent: {}
+[3.960659] (-) TimerEvent: {}
+[4.063088] (-) TimerEvent: {}
+[4.164201] (-) TimerEvent: {}
+[4.265340] (-) TimerEvent: {}
+[4.366770] (-) TimerEvent: {}
+[4.468027] (-) TimerEvent: {}
+[4.569958] (-) TimerEvent: {}
+[4.589616] (gazebo_tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[4.591817] (gazebo_tutorial) StdoutLine: {'line': b'creating ../../build/gazebo_tutorial/gazebo_tutorial.egg-info\n'}
+[4.592656] (gazebo_tutorial) StdoutLine: {'line': b'writing ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/PKG-INFO\n'}
+[4.593377] (gazebo_tutorial) StdoutLine: {'line': b'writing dependency_links to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/dependency_links.txt\n'}
+[4.593934] (gazebo_tutorial) StdoutLine: {'line': b'writing entry points to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/entry_points.txt\n'}
+[4.594610] (gazebo_tutorial) StdoutLine: {'line': b'writing requirements to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/requires.txt\n'}
+[4.595421] (gazebo_tutorial) StdoutLine: {'line': b'writing top-level names to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/top_level.txt\n'}
+[4.595902] (gazebo_tutorial) StdoutLine: {'line': b"writing manifest file '../../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'\n"}
+[4.607016] (gazebo_tutorial) StdoutLine: {'line': b"reading manifest file '../../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'\n"}
+[4.613953] (gazebo_tutorial) StdoutLine: {'line': b"writing manifest file '../../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'\n"}
+[4.616824] (gazebo_tutorial) StdoutLine: {'line': b'running build\n'}
+[4.617218] (gazebo_tutorial) StdoutLine: {'line': b'running build_py\n'}
+[4.617885] (gazebo_tutorial) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/build/gazebo_tutorial/build\n'}
+[4.619663] (gazebo_tutorial) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib\n'}
+[4.619821] (gazebo_tutorial) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial\n'}
+[4.619917] (gazebo_tutorial) StdoutLine: {'line': b'copying gazebo_tutorial/node_perplexity.py -> /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial\n'}
+[4.620011] (gazebo_tutorial) StdoutLine: {'line': b'copying gazebo_tutorial/node_test.py -> /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial\n'}
+[4.620106] (gazebo_tutorial) StdoutLine: {'line': b'copying gazebo_tutorial/__init__.py -> /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial\n'}
+[4.621741] (gazebo_tutorial) StdoutLine: {'line': b'running install\n'}
+[4.622264] (gazebo_tutorial) StdoutLine: {'line': b'running install_lib\n'}
+[4.623353] (gazebo_tutorial) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial\n'}
+[4.623939] (gazebo_tutorial) StdoutLine: {'line': b'copying /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial/node_perplexity.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial\n'}
+[4.624615] (gazebo_tutorial) StdoutLine: {'line': b'copying /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial/node_test.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial\n'}
+[4.624805] (gazebo_tutorial) StdoutLine: {'line': b'copying /home/kisangpark/ros2_ws/build/gazebo_tutorial/build/lib/gazebo_tutorial/__init__.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial\n'}
+[4.625817] (gazebo_tutorial) StdoutLine: {'line': b'byte-compiling /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial/node_perplexity.py to node_perplexity.cpython-310.pyc\n'}
+[4.628046] (gazebo_tutorial) StdoutLine: {'line': b'byte-compiling /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial/node_test.py to node_test.cpython-310.pyc\n'}
+[4.630696] (gazebo_tutorial) StdoutLine: {'line': b'byte-compiling /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial/__init__.py to __init__.cpython-310.pyc\n'}
+[4.631837] (gazebo_tutorial) StdoutLine: {'line': b'running install_data\n'}
+[4.632738] (gazebo_tutorial) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/ament_index\n'}
+[4.633361] (gazebo_tutorial) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/ament_index/resource_index\n'}
+[4.633765] (gazebo_tutorial) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/ament_index/resource_index/packages\n'}
+[4.635310] (gazebo_tutorial) StdoutLine: {'line': b'copying resource/gazebo_tutorial -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/ament_index/resource_index/packages\n'}
+[4.636551] (gazebo_tutorial) StdoutLine: {'line': b'copying package.xml -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial\n'}
+[4.638506] (gazebo_tutorial) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/launch\n'}
+[4.639862] (gazebo_tutorial) StdoutLine: {'line': b'copying launch/robot.launch.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/launch\n'}
+[4.640180] (gazebo_tutorial) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/launch\n'}
+[4.640303] (gazebo_tutorial) StdoutLine: {'line': b'copying launch/gazebo_spawn.launch.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/launch\n'}
+[4.640538] (gazebo_tutorial) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.640756] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/chassis2.mtl -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.642693] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/tmotor3.obj -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.644099] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/tmotor.blend -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.648902] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/t-motor.jpg -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.653686] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/chassis.obj -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.656870] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/vision60_single.urdf -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.657806] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/chassis.mtl -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.659164] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/chassis2.obj -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.663818] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/vision.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.664706] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/model.config -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.665812] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/checker_blue.png -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.667657] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/vision60.urdf -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.669739] (gazebo_tutorial) StdoutLine: {'line': b'copying vision60/tmotor3.mtl -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60\n'}
+[4.669909] (-) TimerEvent: {}
+[4.670692] (gazebo_tutorial) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.676698] (gazebo_tutorial) StdoutLine: {'line': b'Copying ../../build/gazebo_tutorial/gazebo_tutorial.egg-info to /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages/gazebo_tutorial-0.0.0-py3.10.egg-info\n'}
+[4.677837] (gazebo_tutorial) StdoutLine: {'line': b'running install_scripts\n'}
+[4.762622] (gazebo_tutorial) StdoutLine: {'line': b'Installing node_test script to /home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/gazebo_tutorial\n'}
+[4.764441] (gazebo_tutorial) StdoutLine: {'line': b"writing list of installed files to '/home/kisangpark/ros2_ws/build/gazebo_tutorial/install.log'\n"}
+[4.770273] (-) TimerEvent: {}
+[4.871632] (gazebo_tutorial) CommandEnded: {'returncode': 0}
+[4.872879] (-) TimerEvent: {}
+[4.949511] (gazebo_tutorial) JobEnded: {'identifier': 'gazebo_tutorial', 'rc': 0}
+[4.955661] (-) EventReactorShutdown: {}

@@ -26,7 +26,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'node_test = gazebo_tutorial.node_test:main',
+            'controller = gazebo_tutorial.controller:main',
         ],
     },
 )
