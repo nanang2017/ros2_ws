@@ -1,0 +1,16 @@
+running egg_info
+writing ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/PKG-INFO
+writing dependency_links to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/dependency_links.txt
+writing entry points to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/entry_points.txt
+writing requirements to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/requires.txt
+writing top-level names to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/top_level.txt
+reading manifest file '../../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'
+writing manifest file '../../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/gazebo_2.launch.py -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/launch
+error: can't copy 'vision60/vision60_depreciated': doesn't exist or not a regular file
+copying vision60/vision60_double.urdf -> /home/kisangpark/ros2_ws/install/gazebo_tutorial/share/gazebo_tutorial/vision60

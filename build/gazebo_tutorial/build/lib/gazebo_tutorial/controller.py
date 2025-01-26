@@ -68,7 +68,7 @@ position = np.zeros(14).tolist()
 
 class controller(Node):
     def __init__(self):
-        super().__init__('contoller_joint')
+        super().__init__('contoller')
         qos_profile = QoSProfile(depth=10)
         self.publisher = self.create_publisher(JointState, 'joint_states', qos_profile)
         self.timer = self.create_timer(0.1, self.publish_joint_position)
@@ -78,14 +78,20 @@ class controller(Node):
 
         self.count += 1
 
-        if self.count > 50:
+        if self.count > 5:
             self.count = 0
-            position_diff = np.random.randn(length)
+            position_diff = np.random.randn(length)/10
             #position_value = position_value.tolist()
 
             try:
                 self.position += position_diff
                 print("adding successful")
+                for i, name in enumerate(joint_names):
+                    upper_lim = joint_limits[name]["upper"]
+                    lower_lim = joint_limits[name]["lower"]
+                    self.position[i] = min(upper_lim, max(lower_lim, self.position[i]))
+
+                #self.position = min(limit checking..) #limit check needed
                 #print(position_value)
             except:
                 self.position = np.zeros(length)
@@ -100,7 +106,8 @@ class controller(Node):
             #print(joint_state.position)
             #print(joint_state.effort)
             self.publisher.publish(joint_state)
-            print(len(joint_state.position)) # -> increasing!! what..?
+            print(joint_state.position) # -> increasing!! what..?
+            #invalid issue solved using numpy
 
 
 

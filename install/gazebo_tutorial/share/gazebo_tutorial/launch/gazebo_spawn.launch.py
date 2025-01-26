@@ -29,7 +29,7 @@ def generate_launch_description():
     urdf_file = os.path.join(pkg_path, "vision60", "vision60_single.urdf")
     with open(urdf_file, "r") as file:
         robot_description_content = file.read()
-    params = {"robot_description": robot_description_content}
+    params = {"robot_description": robot_description_content, "use_sim_time": True}
     robot_state_publisher = Node(
                 package="robot_state_publisher",
                 executable="robot_state_publisher",
