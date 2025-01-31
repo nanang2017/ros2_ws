@@ -1,0 +1,44 @@
+[1.823s] Invoking command in '/home/kisangpark/ros2_ws/src/lidar_car': PYTHONPATH=/home/kisangpark/ros2_ws/build/lidar_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_car build --build-base /home/kisangpark/ros2_ws/build/lidar_car/build install --record /home/kisangpark/ros2_ws/build/lidar_car/install.log --install-scripts $base/lib/ridar --single-version-externally-managed install_data
+[2.221s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.221s]   warnings.warn(
+[2.231s] running egg_info
+[2.233s] creating ../../build/lidar_car/lidar_car.egg-info
+[2.234s] writing ../../build/lidar_car/lidar_car.egg-info/PKG-INFO
+[2.235s] writing dependency_links to ../../build/lidar_car/lidar_car.egg-info/dependency_links.txt
+[2.235s] writing entry points to ../../build/lidar_car/lidar_car.egg-info/entry_points.txt
+[2.235s] writing requirements to ../../build/lidar_car/lidar_car.egg-info/requires.txt
+[2.236s] writing top-level names to ../../build/lidar_car/lidar_car.egg-info/top_level.txt
+[2.236s] writing manifest file '../../build/lidar_car/lidar_car.egg-info/SOURCES.txt'
+[2.244s] reading manifest file '../../build/lidar_car/lidar_car.egg-info/SOURCES.txt'
+[2.244s] writing manifest file '../../build/lidar_car/lidar_car.egg-info/SOURCES.txt'
+[2.244s] running build
+[2.244s] running build_py
+[2.245s] creating /home/kisangpark/ros2_ws/build/lidar_car/build
+[2.245s] creating /home/kisangpark/ros2_ws/build/lidar_car/build/lib
+[2.245s] creating /home/kisangpark/ros2_ws/build/lidar_car/build/lib/lidar_car
+[2.246s] copying lidar_car/__init__.py -> /home/kisangpark/ros2_ws/build/lidar_car/build/lib/lidar_car
+[2.247s] running install
+[2.248s] running install_lib
+[2.250s] creating /home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages/lidar_car
+[2.250s] copying /home/kisangpark/ros2_ws/build/lidar_car/build/lib/lidar_car/__init__.py -> /home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages/lidar_car
+[2.251s] byte-compiling /home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages/lidar_car/__init__.py to __init__.cpython-310.pyc
+[2.252s] running install_data
+[2.252s] creating /home/kisangpark/ros2_ws/install/lidar_car/share/ament_index
+[2.252s] creating /home/kisangpark/ros2_ws/install/lidar_car/share/ament_index/resource_index
+[2.252s] creating /home/kisangpark/ros2_ws/install/lidar_car/share/ament_index/resource_index/packages
+[2.253s] copying resource/lidar_car -> /home/kisangpark/ros2_ws/install/lidar_car/share/ament_index/resource_index/packages
+[2.254s] copying package.xml -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car
+[2.254s] creating /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/launch
+[2.254s] copying launch/lidar.launch.py -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/launch
+[2.256s] copying launch/robot_2.launch.py -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/launch
+[2.258s] copying launch/robot_1.launch.py -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/launch
+[2.260s] creating /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf
+[2.261s] copying urdf/lidar.xacro -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf
+[2.262s] copying urdf/my_robot_2.xacro -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf
+[2.264s] copying urdf/macros.xacro -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf
+[2.264s] copying urdf/my_robot_1.xacro -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf
+[2.268s] running install_egg_info
+[2.273s] Copying ../../build/lidar_car/lidar_car.egg-info to /home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages/lidar_car-0.0.0-py3.10.egg-info
+[2.273s] running install_scripts
+[2.306s] writing list of installed files to '/home/kisangpark/ros2_ws/build/lidar_car/install.log'
+[2.347s] Invoked command in '/home/kisangpark/ros2_ws/src/lidar_car' returned '0': PYTHONPATH=/home/kisangpark/ros2_ws/build/lidar_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_car build --build-base /home/kisangpark/ros2_ws/build/lidar_car/build install --record /home/kisangpark/ros2_ws/build/lidar_car/install.log --install-scripts $base/lib/ridar --single-version-externally-managed install_data

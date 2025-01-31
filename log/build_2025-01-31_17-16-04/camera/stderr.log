@@ -1,0 +1,5 @@
+  File "/home/kisangpark/ros2_ws/install/camera/lib/python3.10/site-packages/camera/cam_process.py", line 35
+    self.get_logger().info('image received, stamp: %s', % msg.header.stamp)
+                                                        ^
+SyntaxError: invalid syntax
+

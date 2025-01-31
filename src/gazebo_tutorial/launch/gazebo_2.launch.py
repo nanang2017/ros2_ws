@@ -30,17 +30,29 @@ def generate_launch_description():
     with open(urdf_file, "r") as file:
         robot_description_content = file.read()
     params = {"robot_description": robot_description_content, "use_sim_time": True}
+    params_2 = {"source_list": ["control_signal"], "use_sim_time": True}
+    params_3 = {"use_sim_time": True}
+
+    #robot state publisher
     robot_state_publisher = Node(
                 package="robot_state_publisher",
                 executable="robot_state_publisher",
                 output="screen",
                 parameters=[params],)
 
+    #test - joint state publisher
+    joint_state_publisher = Node(
+    package='joint_state_publisher',
+    executable='joint_state_publisher',
+    name='joint_state_publisher',
+    parameters = [params_2],
+    )
+
 
     # start gazebo
     gazebo_start = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gazebo.launch.py')),
-        launch_arguments = {'world': world_path}.items()
+        launch_arguments = {'world': world_path, "use_sim_time": True}.items()
     )
 
 
@@ -64,12 +76,22 @@ def generate_launch_description():
         output='screen'
     )
 
+    rviz = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen',
+        parameters = [params_3],
+    )
+
     return LaunchDescription(
         [
             gazebo_start,
             robot_state_publisher,
             spawn_entity,
             controller_node,
+            #rviz,
+            joint_state_publisher,
         ]
     )
 

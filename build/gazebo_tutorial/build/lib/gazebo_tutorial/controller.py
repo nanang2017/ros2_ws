@@ -70,7 +70,7 @@ class controller(Node):
     def __init__(self):
         super().__init__('contoller')
         qos_profile = QoSProfile(depth=10)
-        self.publisher = self.create_publisher(JointState, 'joint_states', qos_profile)
+        self.publisher = self.create_publisher(JointState, 'control_signal', qos_profile)
         self.timer = self.create_timer(0.1, self.publish_joint_position)
         self.count = 50
 
@@ -97,16 +97,16 @@ class controller(Node):
                 self.position = np.zeros(length)
                 print("initialize")
 
-            joint_state = JointState()
-            joint_state.header.stamp = self.get_clock().now().to_msg()
-            joint_state.name = joint_names
-            joint_state.effort = [] #force
-            joint_state.position =self.position.tolist()
-            joint_state.velocity = []
+            control_signal = JointState()
+            control_signal.header.stamp = self.get_clock().now().to_msg()
+            control_signal.name = joint_names
+            control_signal.effort = [] #force
+            control_signal.position =self.position.tolist()
+            control_signal.velocity = []
             #print(joint_state.position)
             #print(joint_state.effort)
-            self.publisher.publish(joint_state)
-            print(joint_state.position) # -> increasing!! what..?
+            self.publisher.publish(control_signal)
+            print(control_signal.position) # -> increasing!! what..?
             #invalid issue solved using numpy
 
 

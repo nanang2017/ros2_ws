@@ -1,0 +1,24 @@
+
+    <!-- LiDAR -->
+    <joint name="laser_joint" type="fixed">
+        <parent link="body"/>
+        <child link="laser_frame"/>
+        <origin xyz="0.1 0 0.075" rpy="0 0 0"/>
+    </joint>
+
+    <link name="laser_frame">
+        <visual>
+            <geometry>
+                <cylinder radius="0.03" length="0.03"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.03" length="0.03"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- diff drive plugin -->
+    <xacro:include filename="gazebo.xacro"/>

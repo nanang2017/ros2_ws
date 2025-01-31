@@ -1,0 +1,42 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../build/lidar_car/lidar_car.egg-info
+writing ../../build/lidar_car/lidar_car.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_car/lidar_car.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_car/lidar_car.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_car/lidar_car.egg-info/requires.txt
+writing top-level names to ../../build/lidar_car/lidar_car.egg-info/top_level.txt
+writing manifest file '../../build/lidar_car/lidar_car.egg-info/SOURCES.txt'
+reading manifest file '../../build/lidar_car/lidar_car.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_car/lidar_car.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kisangpark/ros2_ws/build/lidar_car/build
+creating /home/kisangpark/ros2_ws/build/lidar_car/build/lib
+creating /home/kisangpark/ros2_ws/build/lidar_car/build/lib/lidar_car
+copying lidar_car/__init__.py -> /home/kisangpark/ros2_ws/build/lidar_car/build/lib/lidar_car
+running install
+running install_lib
+creating /home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages/lidar_car
+copying /home/kisangpark/ros2_ws/build/lidar_car/build/lib/lidar_car/__init__.py -> /home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages/lidar_car
+byte-compiling /home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages/lidar_car/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kisangpark/ros2_ws/install/lidar_car/share/ament_index
+creating /home/kisangpark/ros2_ws/install/lidar_car/share/ament_index/resource_index
+creating /home/kisangpark/ros2_ws/install/lidar_car/share/ament_index/resource_index/packages
+copying resource/lidar_car -> /home/kisangpark/ros2_ws/install/lidar_car/share/ament_index/resource_index/packages
+copying package.xml -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car
+creating /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/launch
+copying launch/lidar.launch.py -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/launch
+copying launch/robot_2.launch.py -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/launch
+copying launch/robot_1.launch.py -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/launch
+creating /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf
+copying urdf/lidar.xacro -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf
+copying urdf/my_robot_2.xacro -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf
+copying urdf/macros.xacro -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf
+copying urdf/my_robot_1.xacro -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf
+running install_egg_info
+Copying ../../build/lidar_car/lidar_car.egg-info to /home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages/lidar_car-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kisangpark/ros2_ws/build/lidar_car/install.log'

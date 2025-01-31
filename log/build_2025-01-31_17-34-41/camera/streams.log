@@ -1,0 +1,26 @@
+[2.968s] Invoking command in '/home/kisangpark/ros2_ws/src/camera': PYTHONPATH=/home/kisangpark/ros2_ws/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/kisangpark/ros2_ws/build/camera/build install --record /home/kisangpark/ros2_ws/build/camera/install.log --single-version-externally-managed install_data
+[3.978s] running egg_info
+[3.986s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[3.992s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[3.993s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[3.994s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[3.997s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[4.006s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[4.011s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[4.012s] running build
+[4.012s] running build_py
+[4.012s] copying camera/cam_process.py -> /home/kisangpark/ros2_ws/build/camera/build/lib/camera
+[4.013s] running install
+[4.015s] running install_lib
+[4.018s] copying /home/kisangpark/ros2_ws/build/camera/build/lib/camera/cam_process.py -> /home/kisangpark/ros2_ws/install/camera/lib/python3.10/site-packages/camera
+[4.020s] byte-compiling /home/kisangpark/ros2_ws/install/camera/lib/python3.10/site-packages/camera/cam_process.py to cam_process.cpython-310.pyc
+[4.024s] running install_data
+[4.025s] copying xacro/simul.xacro -> /home/kisangpark/ros2_ws/install/camera/share/camera/xacro
+[4.027s] copying xacro/lidar_reference.xacro -> /home/kisangpark/ros2_ws/install/camera/share/camera/xacro
+[4.027s] running install_egg_info
+[4.033s] removing '/home/kisangpark/ros2_ws/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)
+[4.034s] Copying ../../build/camera/camera.egg-info to /home/kisangpark/ros2_ws/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[4.037s] running install_scripts
+[4.116s] Installing image_processor script to /home/kisangpark/ros2_ws/install/camera/lib/camera
+[4.118s] writing list of installed files to '/home/kisangpark/ros2_ws/build/camera/install.log'
+[4.202s] Invoked command in '/home/kisangpark/ros2_ws/src/camera' returned '0': PYTHONPATH=/home/kisangpark/ros2_ws/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/kisangpark/ros2_ws/build/camera/build install --record /home/kisangpark/ros2_ws/build/camera/install.log --single-version-externally-managed install_data

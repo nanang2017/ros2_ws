@@ -1,0 +1,5 @@
+  File "/home/kisangpark/ros2_ws/install/camera/lib/python3.10/site-packages/camera/cam_process.py", line 40
+    except Exception:
+    ^^^^^^
+SyntaxError: invalid syntax
+

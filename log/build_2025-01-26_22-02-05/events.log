@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.003596] (-) JobUnselected: {'identifier': 'gazebo_tutorial'}
+[0.003717] (-) JobUnselected: {'identifier': 'lidar_car'}
+[0.003757] (-) EventReactorShutdown: {}

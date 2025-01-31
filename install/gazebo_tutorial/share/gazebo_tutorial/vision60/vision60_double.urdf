@@ -3,6 +3,9 @@
 <robot name="ngr" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <!-- gazebo ros control plugin-->
   <gazebo reference="world">
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>/vision60</robotNamespace>
+    </plugin>
     <static>false</static>
   </gazebo>
   <!-- Define parameters -->

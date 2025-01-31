@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000983] (-) JobUnselected: {'identifier': 'gazebo_tutorial'}
+[0.001046] (lidar_car) JobQueued: {'identifier': 'lidar_car', 'dependencies': OrderedDict()}
+[0.001119] (lidar_car) JobStarted: {'identifier': 'lidar_car'}
+[0.097956] (-) TimerEvent: {}
+[0.201307] (-) TimerEvent: {}
+[0.301935] (-) TimerEvent: {}
+[0.404308] (-) TimerEvent: {}
+[0.506820] (-) TimerEvent: {}
+[0.609334] (-) TimerEvent: {}
+[0.710754] (-) TimerEvent: {}
+[0.811889] (-) TimerEvent: {}
+[0.915678] (-) TimerEvent: {}
+[1.017351] (-) TimerEvent: {}
+[1.117852] (-) TimerEvent: {}
+[1.219576] (-) TimerEvent: {}
+[1.320068] (-) TimerEvent: {}
+[1.421935] (-) TimerEvent: {}
+[1.524966] (-) TimerEvent: {}
+[1.626315] (-) TimerEvent: {}
+[1.728281] (-) TimerEvent: {}
+[1.823178] (lidar_car) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_car', 'build', '--build-base', '/home/kisangpark/ros2_ws/build/lidar_car/build', 'install', '--record', '/home/kisangpark/ros2_ws/build/lidar_car/install.log', '--install-scripts', '$base/lib/ridar', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kisangpark/ros2_ws/src/lidar_car', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'kisangpark', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kisangpark', 'OLDPWD': '/home/kisangpark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '1673', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kisangpark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kisangpark', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kisangpark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ROS2:@/tmp/.ICE-unix/1650,unix/ROS2:/tmp/.ICE-unix/1650', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/44c73770_d1b0_4655_840c_d6a7f92f1314', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FVRT02', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kisangpark/ros2_ws/build/lidar_car', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kisangpark/ros2_ws/build/lidar_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.836192] (-) TimerEvent: {}
+[1.937422] (-) TimerEvent: {}
+[2.038011] (-) TimerEvent: {}
+[2.138624] (-) TimerEvent: {}
+[2.222198] (lidar_car) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.222386] (lidar_car) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.232287] (lidar_car) StdoutLine: {'line': b'running egg_info\n'}
+[2.234548] (lidar_car) StdoutLine: {'line': b'creating ../../build/lidar_car/lidar_car.egg-info\n'}
+[2.235134] (lidar_car) StdoutLine: {'line': b'writing ../../build/lidar_car/lidar_car.egg-info/PKG-INFO\n'}
+[2.235608] (lidar_car) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_car/lidar_car.egg-info/dependency_links.txt\n'}
+[2.236014] (lidar_car) StdoutLine: {'line': b'writing entry points to ../../build/lidar_car/lidar_car.egg-info/entry_points.txt\n'}
+[2.236383] (lidar_car) StdoutLine: {'line': b'writing requirements to ../../build/lidar_car/lidar_car.egg-info/requires.txt\n'}
+[2.237181] (lidar_car) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_car/lidar_car.egg-info/top_level.txt\n'}
+[2.237388] (lidar_car) StdoutLine: {'line': b"writing manifest file '../../build/lidar_car/lidar_car.egg-info/SOURCES.txt'\n"}
+[2.239605] (-) TimerEvent: {}
+[2.244507] (lidar_car) StdoutLine: {'line': b"reading manifest file '../../build/lidar_car/lidar_car.egg-info/SOURCES.txt'\n"}
+[2.244805] (lidar_car) StdoutLine: {'line': b"writing manifest file '../../build/lidar_car/lidar_car.egg-info/SOURCES.txt'\n"}
+[2.245142] (lidar_car) StdoutLine: {'line': b'running build\n'}
+[2.245364] (lidar_car) StdoutLine: {'line': b'running build_py\n'}
+[2.245821] (lidar_car) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/build/lidar_car/build\n'}
+[2.246286] (lidar_car) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/build/lidar_car/build/lib\n'}
+[2.246567] (lidar_car) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/build/lidar_car/build/lib/lidar_car\n'}
+[2.246881] (lidar_car) StdoutLine: {'line': b'copying lidar_car/__init__.py -> /home/kisangpark/ros2_ws/build/lidar_car/build/lib/lidar_car\n'}
+[2.247668] (lidar_car) StdoutLine: {'line': b'running install\n'}
+[2.248455] (lidar_car) StdoutLine: {'line': b'running install_lib\n'}
+[2.250657] (lidar_car) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages/lidar_car\n'}
+[2.250848] (lidar_car) StdoutLine: {'line': b'copying /home/kisangpark/ros2_ws/build/lidar_car/build/lib/lidar_car/__init__.py -> /home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages/lidar_car\n'}
+[2.252084] (lidar_car) StdoutLine: {'line': b'byte-compiling /home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages/lidar_car/__init__.py to __init__.cpython-310.pyc\n'}
+[2.252573] (lidar_car) StdoutLine: {'line': b'running install_data\n'}
+[2.253258] (lidar_car) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/install/lidar_car/share/ament_index\n'}
+[2.253410] (lidar_car) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/install/lidar_car/share/ament_index/resource_index\n'}
+[2.253526] (lidar_car) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/install/lidar_car/share/ament_index/resource_index/packages\n'}
+[2.254407] (lidar_car) StdoutLine: {'line': b'copying resource/lidar_car -> /home/kisangpark/ros2_ws/install/lidar_car/share/ament_index/resource_index/packages\n'}
+[2.254630] (lidar_car) StdoutLine: {'line': b'copying package.xml -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car\n'}
+[2.255146] (lidar_car) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/launch\n'}
+[2.255320] (lidar_car) StdoutLine: {'line': b'copying launch/lidar.launch.py -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/launch\n'}
+[2.256737] (lidar_car) StdoutLine: {'line': b'copying launch/robot_2.launch.py -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/launch\n'}
+[2.258969] (lidar_car) StdoutLine: {'line': b'copying launch/robot_1.launch.py -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/launch\n'}
+[2.261308] (lidar_car) StdoutLine: {'line': b'creating /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf\n'}
+[2.262104] (lidar_car) StdoutLine: {'line': b'copying urdf/lidar.xacro -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf\n'}
+[2.262851] (lidar_car) StdoutLine: {'line': b'copying urdf/my_robot_2.xacro -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf\n'}
+[2.264612] (lidar_car) StdoutLine: {'line': b'copying urdf/macros.xacro -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf\n'}
+[2.265430] (lidar_car) StdoutLine: {'line': b'copying urdf/my_robot_1.xacro -> /home/kisangpark/ros2_ws/install/lidar_car/share/lidar_car/urdf\n'}
+[2.268533] (lidar_car) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.273386] (lidar_car) StdoutLine: {'line': b'Copying ../../build/lidar_car/lidar_car.egg-info to /home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages/lidar_car-0.0.0-py3.10.egg-info\n'}
+[2.274003] (lidar_car) StdoutLine: {'line': b'running install_scripts\n'}
+[2.306851] (lidar_car) StdoutLine: {'line': b"writing list of installed files to '/home/kisangpark/ros2_ws/build/lidar_car/install.log'\n"}
+[2.340057] (-) TimerEvent: {}
+[2.347585] (lidar_car) CommandEnded: {'returncode': 0}
+[2.388059] (lidar_car) JobEnded: {'identifier': 'lidar_car', 'rc': 0}
+[2.389150] (-) EventReactorShutdown: {}
