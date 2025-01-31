@@ -36,7 +36,24 @@ class image_processor(Node):
         self.get_logger().info('image received')
         solved_image = CvBridge().imgmsg_to_cv2(msg, "bgr8")
         cv2.imshow('test', solved_image)
+        green_pixel, percentage = self.get_green_pixel(solved_image)
         cv2.waitKey(1)
+
+    def get_green_pixel(self, image):
+        MIN_VALUE = np.array([0, 100, 0], np.uint8)
+        MAX_VALUE = np.array([100, 255, 100], np.uint8)
+
+        sorted = cv2.inRange(image, MIN_VALUE, MAX_VALUE)
+        pixel_num = cv2.countNonZero(sorted)
+
+        #percentage?
+        height, width, channels = image.shape
+        percent = pixel_num/(height*width)
+
+        print('green pixel number:', str(pixel_num), ",", str(percent))
+
+        return pixel_num, percent
+
 
 
 
