@@ -1,0 +1,48 @@
+[3.243s] Invoking command in '/home/kisangpark/ros2_ws/src/my_robot': PYTHONPATH=/home/kisangpark/ros2_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/kisangpark/ros2_ws/build/my_robot/build install --record /home/kisangpark/ros2_ws/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed install_data
+[4.094s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.094s]   warnings.warn(
+[4.113s] running egg_info
+[4.116s] creating ../../build/my_robot/my_robot.egg-info
+[4.117s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[4.117s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[4.117s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[4.118s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[4.118s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[4.119s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[4.124s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[4.125s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[4.127s] running build
+[4.127s] running build_py
+[4.128s] creating /home/kisangpark/ros2_ws/build/my_robot/build
+[4.128s] creating /home/kisangpark/ros2_ws/build/my_robot/build/lib
+[4.128s] creating /home/kisangpark/ros2_ws/build/my_robot/build/lib/my_robot
+[4.128s] copying my_robot/camera_process.py -> /home/kisangpark/ros2_ws/build/my_robot/build/lib/my_robot
+[4.129s] copying my_robot/__init__.py -> /home/kisangpark/ros2_ws/build/my_robot/build/lib/my_robot
+[4.129s] running install
+[4.129s] running install_lib
+[4.134s] creating /home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[4.134s] copying /home/kisangpark/ros2_ws/build/my_robot/build/lib/my_robot/camera_process.py -> /home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[4.134s] copying /home/kisangpark/ros2_ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[4.134s] byte-compiling /home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/camera_process.py to camera_process.cpython-310.pyc
+[4.135s] byte-compiling /home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py to __init__.cpython-310.pyc
+[4.135s] running install_data
+[4.135s] creating /home/kisangpark/ros2_ws/install/my_robot/share/ament_index
+[4.135s] creating /home/kisangpark/ros2_ws/install/my_robot/share/ament_index/resource_index
+[4.137s] creating /home/kisangpark/ros2_ws/install/my_robot/share/ament_index/resource_index/packages
+[4.138s] copying resource/my_robot -> /home/kisangpark/ros2_ws/install/my_robot/share/ament_index/resource_index/packages
+[4.138s] copying package.xml -> /home/kisangpark/ros2_ws/install/my_robot/share/my_robot
+[4.138s] creating /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/launch
+[4.139s] copying launch/robot_2.launch.py -> /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/launch
+[4.139s] copying launch/kisang_test.launch.py -> /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/launch
+[4.140s] copying launch/operating.launch.py -> /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/launch
+[4.140s] creating /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/urdf
+[4.140s] copying urdf/lidar.xacro -> /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/urdf
+[4.140s] copying urdf/gazebo.xacro -> /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/urdf
+[4.140s] copying urdf/my_robot_2.xacro -> /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/urdf
+[4.140s] copying urdf/macros.xacro -> /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/urdf
+[4.140s] running install_egg_info
+[4.155s] Copying ../../build/my_robot/my_robot.egg-info to /home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[4.156s] running install_scripts
+[4.231s] Installing image_processor script to /home/kisangpark/ros2_ws/install/my_robot/lib/my_robot
+[4.234s] writing list of installed files to '/home/kisangpark/ros2_ws/build/my_robot/install.log'
+[4.316s] Invoked command in '/home/kisangpark/ros2_ws/src/my_robot' returned '0': PYTHONPATH=/home/kisangpark/ros2_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/kisangpark/ros2_ws/build/my_robot/build install --record /home/kisangpark/ros2_ws/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed install_data

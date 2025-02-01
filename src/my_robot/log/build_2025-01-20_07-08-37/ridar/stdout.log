@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/ridar/ridar.egg-info
+writing ../../build/ridar/ridar.egg-info/PKG-INFO
+writing dependency_links to ../../build/ridar/ridar.egg-info/dependency_links.txt
+writing entry points to ../../build/ridar/ridar.egg-info/entry_points.txt
+writing requirements to ../../build/ridar/ridar.egg-info/requires.txt
+writing top-level names to ../../build/ridar/ridar.egg-info/top_level.txt
+writing manifest file '../../build/ridar/ridar.egg-info/SOURCES.txt'
+reading manifest file '../../build/ridar/ridar.egg-info/SOURCES.txt'
+writing manifest file '../../build/ridar/ridar.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hwan/ros2_learn_2/build/ridar/build
+creating /home/hwan/ros2_learn_2/build/ridar/build/lib
+creating /home/hwan/ros2_learn_2/build/ridar/build/lib/ridar
+copying ridar/__init__.py -> /home/hwan/ros2_learn_2/build/ridar/build/lib/ridar
+running install
+running install_lib
+creating /home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages/ridar
+copying /home/hwan/ros2_learn_2/build/ridar/build/lib/ridar/__init__.py -> /home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages/ridar
+byte-compiling /home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages/ridar/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/hwan/ros2_learn_2/install/ridar/share/ament_index
+creating /home/hwan/ros2_learn_2/install/ridar/share/ament_index/resource_index
+creating /home/hwan/ros2_learn_2/install/ridar/share/ament_index/resource_index/packages
+copying resource/ridar -> /home/hwan/ros2_learn_2/install/ridar/share/ament_index/resource_index/packages
+copying package.xml -> /home/hwan/ros2_learn_2/install/ridar/share/ridar
+creating /home/hwan/ros2_learn_2/install/ridar/share/ridar/launch
+copying launch/robot_1.launch.py -> /home/hwan/ros2_learn_2/install/ridar/share/ridar/launch
+creating /home/hwan/ros2_learn_2/install/ridar/share/ridar/urdf
+copying urdf/my_robot.xacro -> /home/hwan/ros2_learn_2/install/ridar/share/ridar/urdf
+running install_egg_info
+Copying ../../build/ridar/ridar.egg-info to /home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages/ridar-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/hwan/ros2_learn_2/build/ridar/install.log'
