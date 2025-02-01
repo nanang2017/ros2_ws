@@ -58,7 +58,7 @@
     </collision>
   </link>
   <gazebo reference="body">
-    <material>Gazebo/Green</material>
+    <material>Gazebo/White</material>
   </gazebo>
   <!-- Define our leg macro -->
   <!-- red new legs -->

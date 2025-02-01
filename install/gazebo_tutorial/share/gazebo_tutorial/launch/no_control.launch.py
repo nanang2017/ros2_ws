@@ -48,7 +48,7 @@ def generate_launch_description():
         executable='spawn_entity.py',
         arguments=[
             '-topic', 'robot_description',
-            '-entity', 'vision60',
+            '-entity', 'with_robot',
         ],
         output='screen'
     )
