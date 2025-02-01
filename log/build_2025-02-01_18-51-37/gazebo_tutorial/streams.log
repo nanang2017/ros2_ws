@@ -1,0 +1,21 @@
+[0.760s] Invoking command in '/home/inhwan/ros2_ws1/src/gazebo_tutorial': PYTHONPATH=/home/inhwan/ros2_ws1/build/gazebo_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/install/gazebo_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gazebo_tutorial build --build-base /home/inhwan/ros2_ws1/build/gazebo_tutorial/build install --record /home/inhwan/ros2_ws1/build/gazebo_tutorial/install.log --single-version-externally-managed install_data
+[0.908s] running egg_info
+[0.908s] writing ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/PKG-INFO
+[0.908s] writing dependency_links to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/dependency_links.txt
+[0.909s] writing entry points to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/entry_points.txt
+[0.909s] writing requirements to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/requires.txt
+[0.909s] writing top-level names to ../../build/gazebo_tutorial/gazebo_tutorial.egg-info/top_level.txt
+[0.932s] reading manifest file '../../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'
+[0.933s] writing manifest file '../../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'
+[0.933s] running build
+[0.933s] running build_py
+[0.933s] running install
+[0.934s] running install_lib
+[0.935s] running install_data
+[0.935s] running install_egg_info
+[0.936s] removing '/home/inhwan/ros2_ws1/install/gazebo_tutorial/lib/python3.8/site-packages/gazebo_tutorial-0.0.0-py3.8.egg-info' (and everything under it)
+[0.936s] Copying ../../build/gazebo_tutorial/gazebo_tutorial.egg-info to /home/inhwan/ros2_ws1/install/gazebo_tutorial/lib/python3.8/site-packages/gazebo_tutorial-0.0.0-py3.8.egg-info
+[0.937s] running install_scripts
+[0.948s] Installing controller script to /home/inhwan/ros2_ws1/install/gazebo_tutorial/lib/gazebo_tutorial
+[0.948s] writing list of installed files to '/home/inhwan/ros2_ws1/build/gazebo_tutorial/install.log'
+[0.964s] Invoked command in '/home/inhwan/ros2_ws1/src/gazebo_tutorial' returned '0': PYTHONPATH=/home/inhwan/ros2_ws1/build/gazebo_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/install/gazebo_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gazebo_tutorial build --build-base /home/inhwan/ros2_ws1/build/gazebo_tutorial/build install --record /home/inhwan/ros2_ws1/build/gazebo_tutorial/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+image_processor = camera.cam_process:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+controller = gazebo_tutorial.controller:main
+
