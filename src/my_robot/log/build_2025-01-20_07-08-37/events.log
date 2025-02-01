@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000282] (ridar) JobQueued: {'identifier': 'ridar', 'dependencies': OrderedDict()}
+[0.000513] (ridar) JobStarted: {'identifier': 'ridar'}
+[0.098136] (-) TimerEvent: {}
+[0.199046] (-) TimerEvent: {}
+[0.299852] (-) TimerEvent: {}
+[0.401020] (-) TimerEvent: {}
+[0.501795] (-) TimerEvent: {}
+[0.602942] (-) TimerEvent: {}
+[0.704094] (-) TimerEvent: {}
+[0.805278] (-) TimerEvent: {}
+[0.905980] (-) TimerEvent: {}
+[1.006766] (-) TimerEvent: {}
+[1.108253] (-) TimerEvent: {}
+[1.208859] (-) TimerEvent: {}
+[1.309661] (-) TimerEvent: {}
+[1.362452] (ridar) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ridar', 'build', '--build-base', '/home/hwan/ros2_learn_2/build/ridar/build', 'install', '--record', '/home/hwan/ros2_learn_2/build/ridar/install.log', '--install-scripts', '$base/lib/ridar', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hwan/ros2_learn_2/src/ridar', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hwan', 'SSH_AGENT_PID': '1484', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hwan/build/px4_sitl_default/build_gazebo:/home/hwan/build/px4_sitl_default/build_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/hwan', 'OLDPWD': '/home/hwan/ros2_learn_2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1386', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/hwan/ros2lidar_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'hwan', 'JOURNAL_STREAM': '8:53127', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hwan', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/hwan/Tools/sitl_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/hwan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1519,unix/ubuntu:/tmp/.ICE-unix/1519', 'INVOCATION_ID': 'e5f19edb57c542fb82bf481ec032d3ae', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6c1bc183_b55a_4f39_90fe_0daacb48b30d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.86', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/hwan/ros2lidar_ws/install/rplidar_ros:/home/hwan/ros2lidar_ws/install/lidar_data_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hwan/ros2_learn_2/build/ridar', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/hwan/build/px4_sitl_default/build_gazebo', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hwan/ros2_learn_2/build/ridar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages:/home/hwan/ros2lidar_ws/build/lidar_data_pkg:/home/hwan/ros2lidar_ws/install/lidar_data_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/hwan/ros2lidar_ws/install/rplidar_ros'}, 'shell': False}
+[1.410923] (-) TimerEvent: {}
+[1.511987] (-) TimerEvent: {}
+[1.613496] (-) TimerEvent: {}
+[1.707387] (ridar) StdoutLine: {'line': b'running egg_info\n'}
+[1.708730] (ridar) StdoutLine: {'line': b'creating ../../build/ridar/ridar.egg-info\n'}
+[1.709355] (ridar) StdoutLine: {'line': b'writing ../../build/ridar/ridar.egg-info/PKG-INFO\n'}
+[1.710238] (ridar) StdoutLine: {'line': b'writing dependency_links to ../../build/ridar/ridar.egg-info/dependency_links.txt\n'}
+[1.710415] (ridar) StdoutLine: {'line': b'writing entry points to ../../build/ridar/ridar.egg-info/entry_points.txt\n'}
+[1.711220] (ridar) StdoutLine: {'line': b'writing requirements to ../../build/ridar/ridar.egg-info/requires.txt\n'}
+[1.711414] (ridar) StdoutLine: {'line': b'writing top-level names to ../../build/ridar/ridar.egg-info/top_level.txt\n'}
+[1.713809] (-) TimerEvent: {}
+[1.725020] (ridar) StdoutLine: {'line': b"writing manifest file '../../build/ridar/ridar.egg-info/SOURCES.txt'\n"}
+[1.765554] (ridar) StdoutLine: {'line': b"reading manifest file '../../build/ridar/ridar.egg-info/SOURCES.txt'\n"}
+[1.767483] (ridar) StdoutLine: {'line': b"writing manifest file '../../build/ridar/ridar.egg-info/SOURCES.txt'\n"}
+[1.767964] (ridar) StdoutLine: {'line': b'running build\n'}
+[1.768102] (ridar) StdoutLine: {'line': b'running build_py\n'}
+[1.768584] (ridar) StdoutLine: {'line': b'creating /home/hwan/ros2_learn_2/build/ridar/build\n'}
+[1.768900] (ridar) StdoutLine: {'line': b'creating /home/hwan/ros2_learn_2/build/ridar/build/lib\n'}
+[1.769193] (ridar) StdoutLine: {'line': b'creating /home/hwan/ros2_learn_2/build/ridar/build/lib/ridar\n'}
+[1.770050] (ridar) StdoutLine: {'line': b'copying ridar/__init__.py -> /home/hwan/ros2_learn_2/build/ridar/build/lib/ridar\n'}
+[1.770879] (ridar) StdoutLine: {'line': b'running install\n'}
+[1.772164] (ridar) StdoutLine: {'line': b'running install_lib\n'}
+[1.774173] (ridar) StdoutLine: {'line': b'creating /home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages/ridar\n'}
+[1.774618] (ridar) StdoutLine: {'line': b'copying /home/hwan/ros2_learn_2/build/ridar/build/lib/ridar/__init__.py -> /home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages/ridar\n'}
+[1.776460] (ridar) StdoutLine: {'line': b'byte-compiling /home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages/ridar/__init__.py to __init__.cpython-38.pyc\n'}
+[1.778556] (ridar) StdoutLine: {'line': b'running install_data\n'}
+[1.779148] (ridar) StdoutLine: {'line': b'creating /home/hwan/ros2_learn_2/install/ridar/share/ament_index\n'}
+[1.779722] (ridar) StdoutLine: {'line': b'creating /home/hwan/ros2_learn_2/install/ridar/share/ament_index/resource_index\n'}
+[1.780116] (ridar) StdoutLine: {'line': b'creating /home/hwan/ros2_learn_2/install/ridar/share/ament_index/resource_index/packages\n'}
+[1.780545] (ridar) StdoutLine: {'line': b'copying resource/ridar -> /home/hwan/ros2_learn_2/install/ridar/share/ament_index/resource_index/packages\n'}
+[1.781069] (ridar) StdoutLine: {'line': b'copying package.xml -> /home/hwan/ros2_learn_2/install/ridar/share/ridar\n'}
+[1.781546] (ridar) StdoutLine: {'line': b'creating /home/hwan/ros2_learn_2/install/ridar/share/ridar/launch\n'}
+[1.781900] (ridar) StdoutLine: {'line': b'copying launch/robot_1.launch.py -> /home/hwan/ros2_learn_2/install/ridar/share/ridar/launch\n'}
+[1.782366] (ridar) StdoutLine: {'line': b'creating /home/hwan/ros2_learn_2/install/ridar/share/ridar/urdf\n'}
+[1.782732] (ridar) StdoutLine: {'line': b'copying urdf/my_robot.xacro -> /home/hwan/ros2_learn_2/install/ridar/share/ridar/urdf\n'}
+[1.783213] (ridar) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.785600] (ridar) StdoutLine: {'line': b'Copying ../../build/ridar/ridar.egg-info to /home/hwan/ros2_learn_2/install/ridar/lib/python3.8/site-packages/ridar-0.0.0-py3.8.egg-info\n'}
+[1.787699] (ridar) StdoutLine: {'line': b'running install_scripts\n'}
+[1.812165] (ridar) StdoutLine: {'line': b"writing list of installed files to '/home/hwan/ros2_learn_2/build/ridar/install.log'\n"}
+[1.814472] (-) TimerEvent: {}
+[1.840739] (ridar) CommandEnded: {'returncode': 0}
+[1.877772] (ridar) JobEnded: {'identifier': 'ridar', 'rc': 0}
+[1.879926] (-) EventReactorShutdown: {}
