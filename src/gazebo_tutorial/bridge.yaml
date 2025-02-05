@@ -1,0 +1,5 @@
+#my
+# Jointstate
+- ros_topic_name: "joint_states"
+  ros_type_name: "sensor_msgs/msg/JointState"
+  gz_type_name: "gz.msgs.Model"

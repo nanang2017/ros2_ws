@@ -604,5 +604,8 @@
 
   <!--Gazebo plugin-->
   <xacro:include filename="plugin_control.xacro"/>
+
+  <!--here: insert controller plugins-->
+  ~~
   
 </robot>

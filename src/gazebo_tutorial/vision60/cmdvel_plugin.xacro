@@ -1,0 +1,24 @@
+<plugin
+  filename="gz-sim-joint-position-controller-system"
+  name="gz::sim::systems::JointPositionController">
+  <joint_name>0</joint_name>
+  <joint_name>1</joint_name>
+  <joint_name>2</joint_name>
+  <joint_name>3</joint_name>
+  <joint_name>4</joint_name>
+  <joint_name>5</joint_name>
+  <joint_name>6</joint_name>
+  <joint_name>7</joint_name>
+  <joint_name>8</joint_name>
+  <joint_name>9</joint_name>
+  <joint_name>10</joint_name>
+  <joint_name>11</joint_name>
+  <topic>topic_name</topic>
+  <p_gain>1</p_gain>
+  <i_gain>0.1</i_gain>
+  <d_gain>0.01</d_gain>
+  <i_max>1</i_max>
+  <i_min>-1</i_min>
+  <cmd_max>4</cmd_max>
+  <cmd_min>-4</cmd_min>
+</plugin>

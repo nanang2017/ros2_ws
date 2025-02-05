@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.004398] (-) JobUnselected: {'identifier': 'camera'}
+[0.004560] (-) JobUnselected: {'identifier': 'gazebo_tutorial'}
+[0.004651] (-) JobUnselected: {'identifier': 'lidar_car'}
+[0.004730] (my_robot) JobQueued: {'identifier': 'my_robot', 'dependencies': OrderedDict()}
+[0.007406] (my_robot) JobStarted: {'identifier': 'my_robot'}
+[0.099613] (-) TimerEvent: {}
+[0.200473] (-) TimerEvent: {}
+[0.306996] (-) TimerEvent: {}
+[0.412145] (-) TimerEvent: {}
+[0.516017] (-) TimerEvent: {}
+[0.621866] (-) TimerEvent: {}
+[0.732705] (-) TimerEvent: {}
+[0.834264] (-) TimerEvent: {}
+[0.935371] (-) TimerEvent: {}
+[1.040936] (-) TimerEvent: {}
+[1.142021] (-) TimerEvent: {}
+[1.247129] (-) TimerEvent: {}
+[1.348240] (-) TimerEvent: {}
+[1.449521] (-) TimerEvent: {}
+[1.550754] (-) TimerEvent: {}
+[1.654084] (-) TimerEvent: {}
+[1.757434] (-) TimerEvent: {}
+[1.860998] (-) TimerEvent: {}
+[1.961939] (-) TimerEvent: {}
+[2.072167] (-) TimerEvent: {}
+[2.176464] (-) TimerEvent: {}
+[2.278930] (-) TimerEvent: {}
+[2.384173] (-) TimerEvent: {}
+[2.491886] (-) TimerEvent: {}
+[2.595121] (-) TimerEvent: {}
+[2.697813] (-) TimerEvent: {}
+[2.798919] (-) TimerEvent: {}
+[2.900104] (-) TimerEvent: {}
+[3.003325] (-) TimerEvent: {}
+[3.110441] (-) TimerEvent: {}
+[3.215539] (-) TimerEvent: {}
+[3.319849] (-) TimerEvent: {}
+[3.422595] (-) TimerEvent: {}
+[3.524632] (-) TimerEvent: {}
+[3.628130] (-) TimerEvent: {}
+[3.732335] (-) TimerEvent: {}
+[3.833879] (-) TimerEvent: {}
+[3.938063] (-) TimerEvent: {}
+[4.041068] (-) TimerEvent: {}
+[4.143704] (-) TimerEvent: {}
+[4.248449] (-) TimerEvent: {}
+[4.349417] (-) TimerEvent: {}
+[4.452446] (-) TimerEvent: {}
+[4.555200] (-) TimerEvent: {}
+[4.661418] (-) TimerEvent: {}
+[4.768429] (-) TimerEvent: {}
+[4.871625] (-) TimerEvent: {}
+[4.973148] (-) TimerEvent: {}
+[5.078680] (-) TimerEvent: {}
+[5.182446] (-) TimerEvent: {}
+[5.287281] (-) TimerEvent: {}
+[5.390919] (-) TimerEvent: {}
+[5.492085] (-) TimerEvent: {}
+[5.596375] (-) TimerEvent: {}
+[5.698637] (-) TimerEvent: {}
+[5.813910] (-) TimerEvent: {}
+[5.914915] (-) TimerEvent: {}
+[6.019729] (-) TimerEvent: {}
+[6.120673] (-) TimerEvent: {}
+[6.221889] (-) TimerEvent: {}
+[6.324164] (-) TimerEvent: {}
+[6.431100] (-) TimerEvent: {}
+[6.533069] (-) TimerEvent: {}
+[6.636532] (-) TimerEvent: {}
+[6.741761] (-) TimerEvent: {}
+[6.843829] (-) TimerEvent: {}
+[6.861087] (my_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot', 'build', '--build-base', '/home/kisangpark/ros2_ws/build/my_robot/build', 'install', '--record', '/home/kisangpark/ros2_ws/build/my_robot/install.log', '--install-scripts', '$base/lib/my_robot', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kisangpark/ros2_ws/src/my_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'kisangpark', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kisangpark', 'OLDPWD': '/home/kisangpark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '1677', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kisangpark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kisangpark', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kisangpark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ROS2:@/tmp/.ICE-unix/1654,unix/ROS2:/tmp/.ICE-unix/1654', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4d1176e8_c441_4b78_8f51_6dcd25c19620', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RAWO12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kisangpark/ros2_ws/build/my_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kisangpark/ros2_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.950301] (-) TimerEvent: {}
+[7.054053] (-) TimerEvent: {}
+[7.158526] (-) TimerEvent: {}
+[7.261155] (-) TimerEvent: {}
+[7.365969] (-) TimerEvent: {}
+[7.471708] (-) TimerEvent: {}
+[7.579911] (-) TimerEvent: {}
+[7.683193] (-) TimerEvent: {}
+[7.790910] (-) TimerEvent: {}
+[7.894871] (-) TimerEvent: {}
+[7.997808] (-) TimerEvent: {}
+[8.103041] (-) TimerEvent: {}
+[8.208453] (-) TimerEvent: {}
+[8.309439] (-) TimerEvent: {}
+[8.416479] (-) TimerEvent: {}
+[8.518701] (-) TimerEvent: {}
+[8.624307] (-) TimerEvent: {}
+[8.726822] (-) TimerEvent: {}
+[8.829985] (-) TimerEvent: {}
+[8.930924] (-) TimerEvent: {}
+[9.037681] (-) TimerEvent: {}
+[9.144566] (-) TimerEvent: {}
+[9.219660] (my_robot) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[9.220301] (my_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.252920] (my_robot) StdoutLine: {'line': b'running egg_info\n'}
+[9.253542] (-) TimerEvent: {}
+[9.265857] (my_robot) StdoutLine: {'line': b'writing ../../build/my_robot/my_robot.egg-info/PKG-INFO\n'}
+[9.272353] (my_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt\n'}
+[9.272871] (my_robot) StdoutLine: {'line': b'writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt\n'}
+[9.276577] (my_robot) StdoutLine: {'line': b'writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt\n'}
+[9.279904] (my_robot) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt\n'}
+[9.301322] (my_robot) StdoutLine: {'line': b"reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'\n"}
+[9.312938] (my_robot) StdoutLine: {'line': b"writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'\n"}
+[9.316129] (my_robot) StdoutLine: {'line': b'running build\n'}
+[9.316596] (my_robot) StdoutLine: {'line': b'running build_py\n'}
+[9.321977] (my_robot) StdoutLine: {'line': b'running install\n'}
+[9.322607] (my_robot) StdoutLine: {'line': b'running install_lib\n'}
+[9.337804] (my_robot) StdoutLine: {'line': b'running install_data\n'}
+[9.345062] (my_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.354690] (-) TimerEvent: {}
+[9.356638] (my_robot) StdoutLine: {'line': b"removing '/home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.362134] (my_robot) StdoutLine: {'line': b'Copying ../../build/my_robot/my_robot.egg-info to /home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info\n'}
+[9.376254] (my_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[9.455198] (-) TimerEvent: {}
+[9.552560] (my_robot) StdoutLine: {'line': b'Installing image_processor script to /home/kisangpark/ros2_ws/install/my_robot/lib/my_robot\n'}
+[9.552969] (my_robot) StdoutLine: {'line': b"writing list of installed files to '/home/kisangpark/ros2_ws/build/my_robot/install.log'\n"}
+[9.560111] (-) TimerEvent: {}
+[9.662841] (-) TimerEvent: {}
+[9.669103] (my_robot) CommandEnded: {'returncode': 0}
+[9.766841] (-) TimerEvent: {}
+[9.771598] (my_robot) JobEnded: {'identifier': 'my_robot', 'rc': 0}
+[9.785830] (-) EventReactorShutdown: {}

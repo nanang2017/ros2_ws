@@ -32,6 +32,7 @@ def generate_launch_description():
     robot_state_publisher = Node(
                 package="robot_state_publisher",
                 executable="robot_state_publisher",
+                #namespace="vision60", #vision60 namespace
                 output="screen",
                 parameters=[params],)
 

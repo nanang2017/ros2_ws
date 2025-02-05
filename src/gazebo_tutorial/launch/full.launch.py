@@ -1,5 +1,5 @@
 """
-launch description
+controller launch
 """
 
 import os
@@ -13,61 +13,30 @@ from launch.substitutions import PathJoinSubstitution, LaunchConfiguration, Text
 from launch_ros.actions import Node
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.substitutions import FindPackageShare
+import xacro
 
 def generate_launch_description():
-    #gazebo ros package load
-    pkg_gazebo_ros = FindPackageShare(package='gazebo_ros').find('gazebo_ros')
-    #pkg_gazebo_ros = get_package_share_directory('gazebo_ros').find('gazebo_ros')
 
-    #workspace package
-    pkg_path = os.path.join(get_package_share_directory('gazebo_tutorial'))
+    #control signal to joint_state_publisher
+    params = {"source_list": ["control_signal"]}
+    #bridge_param = {"name": "config_file", "value": "ros2_ws/src/gazebo_tutorial/bridge.yaml"}
 
-    #loading world
-    world_path = os.path.join(pkg_path, 'worlds', 'empty.world')
+    #launch file get
+    no_control = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            [os.path.join(get_package_share_directory("gazebo_tutorial"), "launch", "no_control.launch.py")]
+        ),
+    )
 
-    #load robot (read urdf file, create parameters dictionary, create state publisher node)
-    urdf_file = os.path.join(pkg_path, "vision60", "vision60_double.urdf")
-    with open(urdf_file, "r") as file:
-        robot_description_content = file.read()
-    params = {"robot_description": robot_description_content}
-    params_2 = {"source_list": ["control_signal"]}
-
-    #robot state publisher
-    robot_state_publisher = Node(
-                package="robot_state_publisher",
-                executable="robot_state_publisher",
-                output="screen",
-                parameters=[params],)
-
-    #test - joint state publisher
+    #joint state publisher launch
     joint_state_publisher = Node(
     package='joint_state_publisher',
     executable='joint_state_publisher',
     name='joint_state_publisher',
-    parameters = [params_2],
+    parameters = [params],
     )
 
-
-    # start gazebo
-    gazebo_start = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gazebo.launch.py')),
-        launch_arguments = {'world': world_path}.items()
-    )
-
-
-    spawn_entity = Node(
-        package='gazebo_ros',
-        executable='spawn_entity.py',
-        arguments=[
-            '-topic', 'robot_description',
-            '-entity', 'vision60',
-            #'-x', str(0),
-            #'-y', str(0.0),
-            #'-Y', str(0.0),
-        ],
-        output='screen'
-    )
-
+    #controller launch
     controller_node = Node(
         package='gazebo_tutorial',
         executable='controller',
@@ -75,30 +44,30 @@ def generate_launch_description():
         output='screen'
     )
 
-    rviz = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        output='screen',
-    )
+    #controller manager
+    #ros2 run controller_manager ros2_control_node
+    #controller_manager = Node(
+    #package='controller_manager',
+    #executable='ros2_control_node',
+    #)
+
+    #gz bridge
+    #ros2 run ros_gz_bridge parameter_bridge
+    #bridge = Node(
+    #package='ros_gz_bridge',
+    #executable='parameter_bridge',
+    #name="gz_bridge",
+    #output='screen',
+    #parameters=[],
+    #)
 
     return LaunchDescription(
         [
-            gazebo_start,
-            robot_state_publisher,
-            spawn_entity,
-            controller_node,
-            #rviz,
+            no_control,
             joint_state_publisher,
+            controller_node,
+            #bridge,
+            #controller_manager,
         ]
     )
-
-
-"""
-achieves
-1. robot state publisher successful! -> joint state publisher, controller
-2. rviz2 -> docs required
-3. topic check -> connection check
-4. 
-"""
 

@@ -6,7 +6,6 @@ for joint state publisher gui & checking file
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 from launch.actions import (DeclareLaunchArgument, SetEnvironmentVariable, 
                             IncludeLaunchDescription, SetLaunchConfiguration)
@@ -24,6 +23,11 @@ def generate_launch_description():
         ),
         launch_arguments={"use_sim_time": "true"}.items(),
     )
+
+    #loading world
+    pkg_path = os.path.join(get_package_share_directory('gazebo_tutorial'))
+    world_path = os.path.join(pkg_path, 'worlds', 'empty.world')
+
     #gazebo ros package load
     pkg_gazebo_ros=os.path.join(get_package_share_directory("gazebo_ros"), "launch", "gazebo.launch.py")
     #pkg_gazebo_ros = FindPackageShare(package='gazebo_ros').find('gazebo_ros')
@@ -32,16 +36,8 @@ def generate_launch_description():
     # start gazebo
     gazebo_start = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([pkg_gazebo_ros]),
-        #launch_arguments = {'world': world_path}.items()
+        launch_arguments = {'world': world_path}.items()
     )
-
-    #workspace package
-    pkg_path = os.path.join(get_package_share_directory('gazebo_tutorial'))
-
-    #loading world
-    world_path = os.path.join(pkg_path, 'worlds', 'empty.world')
-
-
 
     spawn_entity = Node(
         package='gazebo_ros',

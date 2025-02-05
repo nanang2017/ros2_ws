@@ -1,0 +1,23 @@
+[6.857s] Invoking command in '/home/kisangpark/ros2_ws/src/my_robot': PYTHONPATH=/home/kisangpark/ros2_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/kisangpark/ros2_ws/build/my_robot/build install --record /home/kisangpark/ros2_ws/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed install_data
+[9.213s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[9.213s]   warnings.warn(
+[9.246s] running egg_info
+[9.259s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[9.265s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[9.266s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[9.270s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[9.278s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[9.295s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[9.306s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[9.309s] running build
+[9.309s] running build_py
+[9.315s] running install
+[9.318s] running install_lib
+[9.331s] running install_data
+[9.338s] running install_egg_info
+[9.349s] removing '/home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[9.355s] Copying ../../build/my_robot/my_robot.egg-info to /home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[9.369s] running install_scripts
+[9.545s] Installing image_processor script to /home/kisangpark/ros2_ws/install/my_robot/lib/my_robot
+[9.546s] writing list of installed files to '/home/kisangpark/ros2_ws/build/my_robot/install.log'
+[9.662s] Invoked command in '/home/kisangpark/ros2_ws/src/my_robot' returned '0': PYTHONPATH=/home/kisangpark/ros2_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/kisangpark/ros2_ws/build/my_robot/build install --record /home/kisangpark/ros2_ws/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed install_data

@@ -60,6 +60,9 @@ perplexity code summary
 
 import rclpy
 from rclpy.node import Node
+
+from rclpy.executors import MultiThreadedExecutor
+
 from sensor_msgs.msg import JointState
 import numpy as np
 from rclpy.qos import QoSProfile
@@ -70,9 +73,17 @@ class controller(Node):
     def __init__(self):
         super().__init__('contoller')
         qos_profile = QoSProfile(depth=10)
-        self.publisher = self.create_publisher(JointState, 'control_signal', qos_profile)
-        self.timer = self.create_timer(0.1, self.publish_joint_position)
+        self.publisher = self.create_publisher(JointState, 'control_signal', qos_profile) #"joint_states" for direct passing
         self.count = 50
+
+        #variable initialization position change
+        self.joint_states = JointState()
+        self.joint_states.header.frame_id = "joint_states"
+        self.joint_states.name = joint_names
+        self.joint_states.position = np.zeros(length).tolist() #zeros initialize
+
+        self.timer = self.create_timer(0.1, self.publish_joint_position)
+
 
     def publish_joint_position(self):
 
@@ -97,18 +108,14 @@ class controller(Node):
                 self.position = np.zeros(length)
                 print("initialize")
 
-            control_signal = JointState()
-            control_signal.header.stamp = self.get_clock().now().to_msg()
-            control_signal.name = joint_names
-            control_signal.effort = [] #force
-            control_signal.position =self.position.tolist()
-            control_signal.velocity = []
-            #print(joint_state.position)
-            #print(joint_state.effort)
-            self.publisher.publish(control_signal)
-            print(control_signal.position) # -> increasing!! what..?
-            #invalid issue solved using numpy
+            self.joint_states.header.stamp = self.get_clock().now().to_msg()
+            self.joint_states.position=self.position.tolist()
+            self.joint_states.effort = [] #force
+            self.joint_states.velocity = []
 
+            self.publisher.publish(self.joint_states)
+            print(self.joint_states.position) # -> increasing!! what..?
+            #invalid issue solved using numpy
 
 
 def main(args=None):
@@ -116,7 +123,8 @@ def main(args=None):
     #print(joint_names, joint_types, joint_limits)
     rclpy.init(args=args)
     node = controller()
-    rclpy.spin(node)
+    executor = MultiThreadedExecutor()
+    rclpy.spin(node, executor=executor)
     node.destroy_node()
     rclpy.shutdown()
 
