@@ -12,6 +12,7 @@ setup.py
 launch/kisang_test.launch.py
 launch/operating.launch.py
 launch/robot_2.launch.py
+launch/world_test.launch.py
 my_robot/__init__.py
 my_robot/camera_process.py
 resource/my_robot

@@ -6,6 +6,7 @@
 /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/package.xml
 /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/launch/robot_2.launch.py
 /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/launch/kisang_test.launch.py
+/home/kisangpark/ros2_ws/install/my_robot/share/my_robot/launch/world_test.launch.py
 /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/launch/operating.launch.py
 /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/urdf/lidar.xacro
 /home/kisangpark/ros2_ws/install/my_robot/share/my_robot/urdf/gazebo.xacro

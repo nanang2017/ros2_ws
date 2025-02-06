@@ -37,9 +37,9 @@ length = len(joint_names)
 """
 for gz control
 pubilshed on: /model/<model_name>/<topic>/<joint_name>/cmd_pos
+
+make 
 """
-
-
 
 
 import rclpy
