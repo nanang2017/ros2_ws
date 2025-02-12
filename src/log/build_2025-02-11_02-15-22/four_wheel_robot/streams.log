@@ -1,0 +1,21 @@
+[0.896s] Invoking command in '/home/inhwan/ros2_ws1/src/four_wheel_robot': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/four_wheel_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/four_wheel_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/four_wheel_robot build --build-base /home/inhwan/ros2_ws1/src/build/four_wheel_robot/build install --record /home/inhwan/ros2_ws1/src/build/four_wheel_robot/install.log --install-scripts $base/lib/4_wheel_robot --single-version-externally-managed install_data
+[1.059s] running egg_info
+[1.059s] writing ../build/four_wheel_robot/four_wheel_robot.egg-info/PKG-INFO
+[1.059s] writing dependency_links to ../build/four_wheel_robot/four_wheel_robot.egg-info/dependency_links.txt
+[1.059s] writing entry points to ../build/four_wheel_robot/four_wheel_robot.egg-info/entry_points.txt
+[1.059s] writing requirements to ../build/four_wheel_robot/four_wheel_robot.egg-info/requires.txt
+[1.059s] writing top-level names to ../build/four_wheel_robot/four_wheel_robot.egg-info/top_level.txt
+[1.084s] reading manifest file '../build/four_wheel_robot/four_wheel_robot.egg-info/SOURCES.txt'
+[1.085s] writing manifest file '../build/four_wheel_robot/four_wheel_robot.egg-info/SOURCES.txt'
+[1.085s] running build
+[1.085s] running build_py
+[1.085s] running install
+[1.086s] running install_lib
+[1.087s] running install_data
+[1.087s] running install_egg_info
+[1.088s] removing '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/lib/python3.8/site-packages/four_wheel_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[1.088s] Copying ../build/four_wheel_robot/four_wheel_robot.egg-info to /home/inhwan/ros2_ws1/src/install/four_wheel_robot/lib/python3.8/site-packages/four_wheel_robot-0.0.0-py3.8.egg-info
+[1.089s] running install_scripts
+[1.101s] Installing robot_1_controller script to /home/inhwan/ros2_ws1/src/install/four_wheel_robot/lib/4_wheel_robot
+[1.101s] writing list of installed files to '/home/inhwan/ros2_ws1/src/build/four_wheel_robot/install.log'
+[1.120s] Invoked command in '/home/inhwan/ros2_ws1/src/four_wheel_robot' returned '0': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/four_wheel_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/four_wheel_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/four_wheel_robot build --build-base /home/inhwan/ros2_ws1/src/build/four_wheel_robot/build install --record /home/inhwan/ros2_ws1/src/build/four_wheel_robot/install.log --install-scripts $base/lib/4_wheel_robot --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+source;share/omni_robot/hook/pythonpath.ps1
+source;share/omni_robot/hook/pythonpath.dsv
+source;share/omni_robot/hook/pythonpath.sh
+source;share/omni_robot/hook/ament_prefix_path.ps1
+source;share/omni_robot/hook/ament_prefix_path.dsv
+source;share/omni_robot/hook/ament_prefix_path.sh

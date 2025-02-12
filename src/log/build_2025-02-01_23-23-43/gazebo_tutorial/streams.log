@@ -1,0 +1,49 @@
+[0.598s] Invoking command in '/home/inhwan/ros2_ws1/src/gazebo_tutorial': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/gazebo_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gazebo_tutorial build --build-base /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build install --record /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/install.log --single-version-externally-managed install_data
+[0.744s] running egg_info
+[0.745s] creating ../build/gazebo_tutorial/gazebo_tutorial.egg-info
+[0.745s] writing ../build/gazebo_tutorial/gazebo_tutorial.egg-info/PKG-INFO
+[0.745s] writing dependency_links to ../build/gazebo_tutorial/gazebo_tutorial.egg-info/dependency_links.txt
+[0.745s] writing entry points to ../build/gazebo_tutorial/gazebo_tutorial.egg-info/entry_points.txt
+[0.745s] writing requirements to ../build/gazebo_tutorial/gazebo_tutorial.egg-info/requires.txt
+[0.745s] writing top-level names to ../build/gazebo_tutorial/gazebo_tutorial.egg-info/top_level.txt
+[0.746s] writing manifest file '../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'
+[0.769s] reading manifest file '../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'
+[0.769s] writing manifest file '../build/gazebo_tutorial/gazebo_tutorial.egg-info/SOURCES.txt'
+[0.769s] running build
+[0.769s] running build_py
+[0.769s] creating /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build
+[0.769s] creating /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build/lib
+[0.770s] creating /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build/lib/gazebo_tutorial
+[0.770s] copying gazebo_tutorial/__init__.py -> /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build/lib/gazebo_tutorial
+[0.770s] copying gazebo_tutorial/controller.py -> /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build/lib/gazebo_tutorial
+[0.770s] copying gazebo_tutorial/perplexity_reference.py -> /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build/lib/gazebo_tutorial
+[0.770s] running install
+[0.770s] running install_lib
+[0.771s] creating /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages/gazebo_tutorial
+[0.771s] copying /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build/lib/gazebo_tutorial/__init__.py -> /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages/gazebo_tutorial
+[0.771s] copying /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build/lib/gazebo_tutorial/controller.py -> /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages/gazebo_tutorial
+[0.771s] copying /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build/lib/gazebo_tutorial/perplexity_reference.py -> /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages/gazebo_tutorial
+[0.771s] byte-compiling /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages/gazebo_tutorial/__init__.py to __init__.cpython-38.pyc
+[0.772s] byte-compiling /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages/gazebo_tutorial/controller.py to controller.cpython-38.pyc
+[0.772s] byte-compiling /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages/gazebo_tutorial/perplexity_reference.py to perplexity_reference.cpython-38.pyc
+[0.773s] running install_data
+[0.773s] creating /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/ament_index
+[0.773s] creating /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/ament_index/resource_index
+[0.773s] creating /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/ament_index/resource_index/packages
+[0.773s] copying resource/gazebo_tutorial -> /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/ament_index/resource_index/packages
+[0.773s] copying package.xml -> /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial
+[0.773s] creating /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/launch
+[0.774s] copying launch/full.launch.py -> /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/launch
+[0.774s] copying launch/no_control.launch.py -> /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/launch
+[0.774s] copying launch/server_client.launch.py -> /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/launch
+[0.774s] copying launch/xacro_load.launch.py -> /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/launch
+[0.774s] creating /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[0.774s] copying vision60/vision60_single.urdf -> /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[0.774s] copying vision60/vision60_double.xacro -> /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[0.774s] copying vision60/plugin_control.xacro -> /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/vision60
+[0.774s] running install_egg_info
+[0.775s] Copying ../build/gazebo_tutorial/gazebo_tutorial.egg-info to /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages/gazebo_tutorial-0.0.0-py3.8.egg-info
+[0.775s] running install_scripts
+[0.787s] Installing controller script to /home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/gazebo_tutorial
+[0.787s] writing list of installed files to '/home/inhwan/ros2_ws1/src/build/gazebo_tutorial/install.log'
+[0.801s] Invoked command in '/home/inhwan/ros2_ws1/src/gazebo_tutorial' returned '0': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/gazebo_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gazebo_tutorial build --build-base /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build install --record /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/install.log --single-version-externally-managed install_data

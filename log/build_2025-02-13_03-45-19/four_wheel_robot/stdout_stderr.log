@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/four_wheel_robot/four_wheel_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/four_wheel_robot/four_wheel_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/four_wheel_robot/four_wheel_robot.egg-info/entry_points.txt
+writing requirements to ../../build/four_wheel_robot/four_wheel_robot.egg-info/requires.txt
+writing top-level names to ../../build/four_wheel_robot/four_wheel_robot.egg-info/top_level.txt
+reading manifest file '../../build/four_wheel_robot/four_wheel_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/four_wheel_robot/four_wheel_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/inhwan/ros2_ws1/install/four_wheel_robot/lib/python3.8/site-packages/four_wheel_robot-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/four_wheel_robot/four_wheel_robot.egg-info to /home/inhwan/ros2_ws1/install/four_wheel_robot/lib/python3.8/site-packages/four_wheel_robot-0.0.0-py3.8.egg-info
+running install_scripts
+Installing robot_1_controller script to /home/inhwan/ros2_ws1/install/four_wheel_robot/lib/4_wheel_robot
+writing list of installed files to '/home/inhwan/ros2_ws1/build/four_wheel_robot/install.log'

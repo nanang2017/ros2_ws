@@ -1,0 +1,41 @@
+[0.594s] Invoking command in '/home/inhwan/ros2_ws1/src/my_robot': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot build --build-base /home/inhwan/ros2_ws1/src/build/my_robot/build install --record /home/inhwan/ros2_ws1/src/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed install_data
+[0.740s] running egg_info
+[0.741s] creating ../build/my_robot/my_robot.egg-info
+[0.741s] writing ../build/my_robot/my_robot.egg-info/PKG-INFO
+[0.741s] writing dependency_links to ../build/my_robot/my_robot.egg-info/dependency_links.txt
+[0.741s] writing entry points to ../build/my_robot/my_robot.egg-info/entry_points.txt
+[0.741s] writing requirements to ../build/my_robot/my_robot.egg-info/requires.txt
+[0.741s] writing top-level names to ../build/my_robot/my_robot.egg-info/top_level.txt
+[0.742s] writing manifest file '../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[0.765s] reading manifest file '../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[0.765s] writing manifest file '../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[0.766s] running build
+[0.766s] running build_py
+[0.766s] creating /home/inhwan/ros2_ws1/src/build/my_robot/build
+[0.766s] creating /home/inhwan/ros2_ws1/src/build/my_robot/build/lib
+[0.766s] creating /home/inhwan/ros2_ws1/src/build/my_robot/build/lib/my_robot
+[0.766s] copying my_robot/__init__.py -> /home/inhwan/ros2_ws1/src/build/my_robot/build/lib/my_robot
+[0.766s] running install
+[0.766s] running install_lib
+[0.767s] creating /home/inhwan/ros2_ws1/src/install/my_robot/lib/python3.8/site-packages/my_robot
+[0.767s] copying /home/inhwan/ros2_ws1/src/build/my_robot/build/lib/my_robot/__init__.py -> /home/inhwan/ros2_ws1/src/install/my_robot/lib/python3.8/site-packages/my_robot
+[0.768s] byte-compiling /home/inhwan/ros2_ws1/src/install/my_robot/lib/python3.8/site-packages/my_robot/__init__.py to __init__.cpython-38.pyc
+[0.768s] running install_data
+[0.768s] creating /home/inhwan/ros2_ws1/src/install/my_robot/share/ament_index
+[0.768s] creating /home/inhwan/ros2_ws1/src/install/my_robot/share/ament_index/resource_index
+[0.768s] creating /home/inhwan/ros2_ws1/src/install/my_robot/share/ament_index/resource_index/packages
+[0.768s] copying resource/my_robot -> /home/inhwan/ros2_ws1/src/install/my_robot/share/ament_index/resource_index/packages
+[0.768s] copying package.xml -> /home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot
+[0.769s] creating /home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/launch
+[0.769s] copying launch/robot_2.launch.py -> /home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/launch
+[0.769s] copying launch/operating.launch.py -> /home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/launch
+[0.769s] creating /home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/urdf
+[0.769s] copying urdf/lidar.xacro -> /home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/urdf
+[0.769s] copying urdf/macros.xacro -> /home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/urdf
+[0.769s] copying urdf/my_robot_2.xacro -> /home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/urdf
+[0.769s] copying urdf/gazebo.xacro -> /home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/urdf
+[0.769s] running install_egg_info
+[0.770s] Copying ../build/my_robot/my_robot.egg-info to /home/inhwan/ros2_ws1/src/install/my_robot/lib/python3.8/site-packages/my_robot-0.0.0-py3.8.egg-info
+[0.770s] running install_scripts
+[0.782s] writing list of installed files to '/home/inhwan/ros2_ws1/src/build/my_robot/install.log'
+[0.803s] Invoked command in '/home/inhwan/ros2_ws1/src/my_robot' returned '0': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot build --build-base /home/inhwan/ros2_ws1/src/build/my_robot/build install --record /home/inhwan/ros2_ws1/src/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed install_data

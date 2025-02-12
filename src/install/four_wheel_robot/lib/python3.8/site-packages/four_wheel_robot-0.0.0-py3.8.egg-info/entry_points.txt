@@ -1,0 +1,3 @@
+[console_scripts]
+robot_1_controller = four_wheel_robot.robot_1_controller:main
+

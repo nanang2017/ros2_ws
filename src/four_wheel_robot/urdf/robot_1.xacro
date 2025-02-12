@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<name="four_wheel_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+    <!-- 매개변수 설정 -->
+    <xacro:property name="robot_size" value="0.6"/>  <!-- 600mm = 0.6m -->
+    <xacro:property name="wheel_radius" value="0.075"/>  <!-- 75mm = 0.075m -->
+    <xacro:property name="wheel_width" value="0.05"/>  <!-- 50mm -->
+    <xacro:property name="wheel_offset" value="0.32"/>  <!-- 로봇 중심에서 바퀴까지 거리 -->
+
+    <!-- 본체 -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="${robot_size} ${robot_size} 0.1"/>
+            </geometry>
+            <material name="blue">
+                <color rgba="0.3 0.5 1.0 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- 바퀴 4개 정의 -->
+    <xacro:macro name="omni_wheel" params="wheel_name x_offset y_offset">
+        <link name="${wheel_name}">
+            <visual>
+                <geometry>
+                    <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+                </geometry>
+                <material name="black">
+                    <color rgba="0.0 0.0 0.0 1"/>
+                </material>
+            </visual>
+        </link>
+
+        <joint name="${wheel_name}_joint" type="continuous">
+            <parent link="base_link"/>
+            <child link="${wheel_name}"/>
+            <origin xyz="${x_offset} ${y_offset} -0.05"/>
+            <axis xyz="0 1 0"/>
+        </joint>
+    </xacro:macro>
+
+    <!-- 바퀴 4개 생성 -->
+    <xacro:omni_wheel wheel_name="front_left_wheel"  x_offset="${wheel_offset}"  y_offset="${wheel_offset}"/>
+    <xacro:omni_wheel wheel_name="front_right_wheel" x_offset="${wheel_offset}"  y_offset="-${wheel_offset}"/>
+    <xacro:omni_wheel wheel_name="rear_left_wheel"   x_offset="-${wheel_offset}" y_offset="${wheel_offset}"/>
+    <xacro:omni_wheel wheel_name="rear_right_wheel"  x_offset="-${wheel_offset}" y_offset="-${wheel_offset}"/>
+
+</robot>

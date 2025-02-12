@@ -1,0 +1,264 @@
+[0.142s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.142s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f082bb909d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f082bb909d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f082ba34a60>)
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.256s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/inhwan/ros2_ws1/src'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(four_wheel_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(four_wheel_robot) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(four_wheel_robot) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(four_wheel_robot) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(four_wheel_robot) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(four_wheel_robot) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(four_wheel_robot) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(four_wheel_robot) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(four_wheel_robot) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'four_wheel_robot' with type 'ros.ament_python' and name 'four_wheel_robot'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_tutorial) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_tutorial) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_tutorial) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_tutorial) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_tutorial) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_tutorial) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_tutorial) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_tutorial) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'gazebo_tutorial' with type 'ros.ament_python' and name 'gazebo_tutorial'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot' with type 'ros.ament_python' and name 'my_robot'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(omni_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(omni_robot) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(omni_robot) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(omni_robot) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(omni_robot) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(omni_robot) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(omni_robot) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(omni_robot) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(omni_robot) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'omni_robot' with type 'ros.ament_python' and name 'omni_robot'
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/inhwan/ros2_ws1/src/install
+[0.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/inhwan/ros2_ws1/install
+[0.283s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/foxy
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'four_wheel_robot' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'four_wheel_robot' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'four_wheel_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'four_wheel_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'four_wheel_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'four_wheel_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'four_wheel_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'four_wheel_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'four_wheel_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'four_wheel_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/inhwan/ros2_ws1/src/build/four_wheel_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/inhwan/ros2_ws1/src/install/four_wheel_robot', 'merge_install': False, 'path': '/home/inhwan/ros2_ws1/src/four_wheel_robot', 'symlink_install': False, 'test_result_base': None}
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'gazebo_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'gazebo_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'gazebo_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'gazebo_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'gazebo_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'gazebo_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'gazebo_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'gazebo_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'gazebo_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/inhwan/ros2_ws1/src/build/gazebo_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial', 'merge_install': False, 'path': '/home/inhwan/ros2_ws1/src/gazebo_tutorial', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/inhwan/ros2_ws1/src/build/my_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/inhwan/ros2_ws1/src/install/my_robot', 'merge_install': False, 'path': '/home/inhwan/ros2_ws1/src/my_robot', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omni_robot' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omni_robot' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omni_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omni_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omni_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omni_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omni_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omni_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omni_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'omni_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/inhwan/ros2_ws1/src/build/omni_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/inhwan/ros2_ws1/src/install/omni_robot', 'merge_install': False, 'path': '/home/inhwan/ros2_ws1/src/omni_robot', 'symlink_install': False, 'test_result_base': None}
+[0.337s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.338s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.338s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/inhwan/ros2_ws1/src/four_wheel_robot' with build type 'ament_python'
+[0.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_wheel_robot', 'ament_prefix_path')
+[0.339s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/share/four_wheel_robot/hook/ament_prefix_path.ps1'
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/share/four_wheel_robot/hook/ament_prefix_path.dsv'
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/share/four_wheel_robot/hook/ament_prefix_path.sh'
+[0.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.347s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/inhwan/ros2_ws1/src/gazebo_tutorial' with build type 'ament_python'
+[0.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_tutorial', 'ament_prefix_path')
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/hook/ament_prefix_path.ps1'
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/hook/ament_prefix_path.dsv'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/hook/ament_prefix_path.sh'
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/inhwan/ros2_ws1/src/my_robot' with build type 'ament_python'
+[0.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot', 'ament_prefix_path')
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/hook/ament_prefix_path.ps1'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/hook/ament_prefix_path.dsv'
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/hook/ament_prefix_path.sh'
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.358s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/inhwan/ros2_ws1/src/omni_robot' with build type 'ament_python'
+[0.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot', 'ament_prefix_path')
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/omni_robot/share/omni_robot/hook/ament_prefix_path.ps1'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inhwan/ros2_ws1/src/install/omni_robot/share/omni_robot/hook/ament_prefix_path.dsv'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/omni_robot/share/omni_robot/hook/ament_prefix_path.sh'
+[0.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.523s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/inhwan/ros2_ws1/src/four_wheel_robot'
+[0.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.684s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/inhwan/ros2_ws1/src/gazebo_tutorial'
+[0.685s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.685s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.846s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/inhwan/ros2_ws1/src/my_robot'
+[0.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.007s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/inhwan/ros2_ws1/src/omni_robot'
+[1.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/inhwan/ros2_ws1/src/four_wheel_robot': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/four_wheel_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/four_wheel_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/four_wheel_robot build --build-base /home/inhwan/ros2_ws1/src/build/four_wheel_robot/build install --record /home/inhwan/ros2_ws1/src/build/four_wheel_robot/install.log --install-scripts $base/lib/4_wheel_robot --single-version-externally-managed install_data
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/inhwan/ros2_ws1/src/gazebo_tutorial': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/gazebo_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gazebo_tutorial build --build-base /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build install --record /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/install.log --single-version-externally-managed install_data
+[1.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/inhwan/ros2_ws1/src/omni_robot': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/omni_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/omni_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/omni_robot build --build-base /home/inhwan/ros2_ws1/src/build/omni_robot/build install --record /home/inhwan/ros2_ws1/src/build/omni_robot/install.log --install-scripts $base/lib/omni_robot --single-version-externally-managed install_data
+[1.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/inhwan/ros2_ws1/src/my_robot': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot build --build-base /home/inhwan/ros2_ws1/src/build/my_robot/build install --record /home/inhwan/ros2_ws1/src/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed install_data
+[1.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/inhwan/ros2_ws1/src/four_wheel_robot' returned '0': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/four_wheel_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/four_wheel_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/four_wheel_robot build --build-base /home/inhwan/ros2_ws1/src/build/four_wheel_robot/build install --record /home/inhwan/ros2_ws1/src/build/four_wheel_robot/install.log --install-scripts $base/lib/4_wheel_robot --single-version-externally-managed install_data
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/four_wheel_robot' for CMake module files
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/four_wheel_robot' for CMake config files
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/lib'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/bin'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/lib/pkgconfig/four_wheel_robot.pc'
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/lib/python3.8/site-packages'
+[1.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_wheel_robot', 'pythonpath')
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/share/four_wheel_robot/hook/pythonpath.ps1'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/share/four_wheel_robot/hook/pythonpath.dsv'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/share/four_wheel_robot/hook/pythonpath.sh'
+[1.537s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/bin'
+[1.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_wheel_robot)
+[1.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/share/four_wheel_robot/package.ps1'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/share/four_wheel_robot/package.dsv'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/share/four_wheel_robot/package.sh'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/share/four_wheel_robot/package.bash'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/four_wheel_robot/share/four_wheel_robot/package.zsh'
+[1.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/inhwan/ros2_ws1/src/install/four_wheel_robot/share/colcon-core/packages/four_wheel_robot)
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial' for CMake module files
+[1.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/inhwan/ros2_ws1/src/gazebo_tutorial' returned '0': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/gazebo_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gazebo_tutorial build --build-base /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/build install --record /home/inhwan/ros2_ws1/src/build/gazebo_tutorial/install.log --single-version-externally-managed install_data
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial' for CMake config files
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib'
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/bin'
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/pkgconfig/gazebo_tutorial.pc'
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/lib/python3.8/site-packages'
+[1.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_tutorial', 'pythonpath')
+[1.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/hook/pythonpath.ps1'
+[1.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/hook/pythonpath.dsv'
+[1.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/hook/pythonpath.sh'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/bin'
+[1.543s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_tutorial)
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/package.ps1'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/package.dsv'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/package.sh'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/package.bash'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/gazebo_tutorial/package.zsh'
+[1.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/inhwan/ros2_ws1/src/install/gazebo_tutorial/share/colcon-core/packages/gazebo_tutorial)
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/omni_robot' for CMake module files
+[1.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/inhwan/ros2_ws1/src/omni_robot' returned '0': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/omni_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/omni_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/omni_robot build --build-base /home/inhwan/ros2_ws1/src/build/omni_robot/build install --record /home/inhwan/ros2_ws1/src/build/omni_robot/install.log --install-scripts $base/lib/omni_robot --single-version-externally-managed install_data
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/omni_robot' for CMake config files
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/omni_robot/lib'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/omni_robot/bin'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/omni_robot/lib/pkgconfig/omni_robot.pc'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/omni_robot/lib/python3.8/site-packages'
+[1.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot', 'pythonpath')
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/omni_robot/share/omni_robot/hook/pythonpath.ps1'
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inhwan/ros2_ws1/src/install/omni_robot/share/omni_robot/hook/pythonpath.dsv'
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/omni_robot/share/omni_robot/hook/pythonpath.sh'
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/omni_robot/bin'
+[1.548s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_robot)
+[1.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/omni_robot/share/omni_robot/package.ps1'
+[1.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/inhwan/ros2_ws1/src/install/omni_robot/share/omni_robot/package.dsv'
+[1.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/omni_robot/share/omni_robot/package.sh'
+[1.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/omni_robot/share/omni_robot/package.bash'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/omni_robot/share/omni_robot/package.zsh'
+[1.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/inhwan/ros2_ws1/src/install/omni_robot/share/colcon-core/packages/omni_robot)
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/my_robot' for CMake module files
+[1.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/inhwan/ros2_ws1/src/my_robot' returned '0': PYTHONPATH=/home/inhwan/ros2_ws1/src/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/src/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot build --build-base /home/inhwan/ros2_ws1/src/build/my_robot/build install --record /home/inhwan/ros2_ws1/src/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed install_data
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/my_robot' for CMake config files
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/my_robot/lib'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/my_robot/bin'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/my_robot/lib/pkgconfig/my_robot.pc'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/my_robot/lib/python3.8/site-packages'
+[1.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot', 'pythonpath')
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/hook/pythonpath.ps1'
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/hook/pythonpath.dsv'
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/hook/pythonpath.sh'
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/inhwan/ros2_ws1/src/install/my_robot/bin'
+[1.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot)
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/package.ps1'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/package.dsv'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/package.sh'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/package.bash'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/inhwan/ros2_ws1/src/install/my_robot/share/my_robot/package.zsh'
+[1.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/inhwan/ros2_ws1/src/install/my_robot/share/colcon-core/packages/my_robot)
+[1.554s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.555s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.555s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.555s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.559s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.560s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.560s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.568s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.569s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/inhwan/ros2_ws1/src/install/local_setup.ps1'
+[1.569s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/inhwan/ros2_ws1/src/install/_local_setup_util_ps1.py'
+[1.570s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/inhwan/ros2_ws1/src/install/setup.ps1'
+[1.571s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/inhwan/ros2_ws1/src/install/local_setup.sh'
+[1.572s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/inhwan/ros2_ws1/src/install/_local_setup_util_sh.py'
+[1.572s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/inhwan/ros2_ws1/src/install/setup.sh'
+[1.573s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/inhwan/ros2_ws1/src/install/local_setup.bash'
+[1.573s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/inhwan/ros2_ws1/src/install/setup.bash'
+[1.574s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/inhwan/ros2_ws1/src/install/local_setup.zsh'
+[1.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/inhwan/ros2_ws1/src/install/setup.zsh'

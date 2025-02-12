@@ -1,0 +1,52 @@
+[0.985s] Invoking command in '/home/inhwan/ros2_ws1/src/omni_robot': PYTHONPATH=/home/inhwan/ros2_ws1/build/omni_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/install/omni_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_robot build --build-base /home/inhwan/ros2_ws1/build/omni_robot/build install --record /home/inhwan/ros2_ws1/build/omni_robot/install.log --install-scripts $base/lib/omni_robot --single-version-externally-managed install_data
+[1.143s] running egg_info
+[1.143s] creating ../../build/omni_robot/omni_robot.egg-info
+[1.143s] writing ../../build/omni_robot/omni_robot.egg-info/PKG-INFO
+[1.143s] writing dependency_links to ../../build/omni_robot/omni_robot.egg-info/dependency_links.txt
+[1.143s] writing entry points to ../../build/omni_robot/omni_robot.egg-info/entry_points.txt
+[1.143s] writing requirements to ../../build/omni_robot/omni_robot.egg-info/requires.txt
+[1.143s] writing top-level names to ../../build/omni_robot/omni_robot.egg-info/top_level.txt
+[1.144s] writing manifest file '../../build/omni_robot/omni_robot.egg-info/SOURCES.txt'
+[1.168s] reading manifest file '../../build/omni_robot/omni_robot.egg-info/SOURCES.txt'
+[1.168s] writing manifest file '../../build/omni_robot/omni_robot.egg-info/SOURCES.txt'
+[1.169s] running build
+[1.169s] running build_py
+[1.169s] creating /home/inhwan/ros2_ws1/build/omni_robot/build
+[1.169s] creating /home/inhwan/ros2_ws1/build/omni_robot/build/lib
+[1.169s] creating /home/inhwan/ros2_ws1/build/omni_robot/build/lib/omni_robot
+[1.169s] copying omni_robot/__init__.py -> /home/inhwan/ros2_ws1/build/omni_robot/build/lib/omni_robot
+[1.169s] running install
+[1.169s] running install_lib
+[1.170s] creating /home/inhwan/ros2_ws1/install/omni_robot/lib/python3.8/site-packages/omni_robot
+[1.170s] copying /home/inhwan/ros2_ws1/build/omni_robot/build/lib/omni_robot/__init__.py -> /home/inhwan/ros2_ws1/install/omni_robot/lib/python3.8/site-packages/omni_robot
+[1.170s] byte-compiling /home/inhwan/ros2_ws1/install/omni_robot/lib/python3.8/site-packages/omni_robot/__init__.py to __init__.cpython-38.pyc
+[1.171s] running install_data
+[1.171s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/ament_index
+[1.171s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/ament_index/resource_index
+[1.171s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/ament_index/resource_index/packages
+[1.171s] copying resource/omni_robot -> /home/inhwan/ros2_ws1/install/omni_robot/share/ament_index/resource_index/packages
+[1.171s] copying package.xml -> /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot
+[1.172s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/launch
+[1.172s] copying launch/robot_state_publisher.launch.py -> /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/launch
+[1.172s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/urdf
+[1.172s] copying urdf/rs_robot.urdf -> /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/urdf
+[1.172s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes
+[1.172s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/DAE
+[1.172s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/DAE/base
+[1.172s] copying meshes/DAE/base/base_link.stl -> /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/DAE/base
+[1.172s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/DAE/omni_wheel
+[1.172s] copying meshes/DAE/omni_wheel/omni_wheel.dae -> /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/DAE/omni_wheel
+[1.172s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/DAE/roller
+[1.173s] copying meshes/DAE/roller/roller.dae -> /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/DAE/roller
+[1.173s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/STL
+[1.173s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/STL/base
+[1.173s] copying meshes/STL/base/base_link.stl -> /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/STL/base
+[1.173s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/STL/omni_wheel
+[1.173s] copying meshes/STL/omni_wheel/omni_wheel.stl -> /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/STL/omni_wheel
+[1.174s] creating /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/STL/roller
+[1.174s] copying meshes/STL/roller/roller.stl -> /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/meshes/STL/roller
+[1.174s] running install_egg_info
+[1.175s] Copying ../../build/omni_robot/omni_robot.egg-info to /home/inhwan/ros2_ws1/install/omni_robot/lib/python3.8/site-packages/omni_robot-0.0.0-py3.8.egg-info
+[1.176s] running install_scripts
+[1.189s] writing list of installed files to '/home/inhwan/ros2_ws1/build/omni_robot/install.log'
+[1.209s] Invoked command in '/home/inhwan/ros2_ws1/src/omni_robot' returned '0': PYTHONPATH=/home/inhwan/ros2_ws1/build/omni_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/install/omni_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_robot build --build-base /home/inhwan/ros2_ws1/build/omni_robot/build install --record /home/inhwan/ros2_ws1/build/omni_robot/install.log --install-scripts $base/lib/omni_robot --single-version-externally-managed install_data

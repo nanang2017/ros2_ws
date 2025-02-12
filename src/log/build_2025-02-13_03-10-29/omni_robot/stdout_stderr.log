@@ -1,0 +1,15 @@
+running egg_info
+writing ../build/omni_robot/omni_robot.egg-info/PKG-INFO
+writing dependency_links to ../build/omni_robot/omni_robot.egg-info/dependency_links.txt
+writing entry points to ../build/omni_robot/omni_robot.egg-info/entry_points.txt
+writing requirements to ../build/omni_robot/omni_robot.egg-info/requires.txt
+writing top-level names to ../build/omni_robot/omni_robot.egg-info/top_level.txt
+reading manifest file '../build/omni_robot/omni_robot.egg-info/SOURCES.txt'
+writing manifest file '../build/omni_robot/omni_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/inhwan/ros2_ws1/src/install/omni_robot/share/omni_robot/meshes
+error: can't copy 'meshes/some_mesh_file.dae': doesn't exist or not a regular file

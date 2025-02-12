@@ -1,0 +1,21 @@
+[1.068s] Invoking command in '/home/inhwan/ros2_ws1/src/omni_robot': PYTHONPATH=/home/inhwan/ros2_ws1/build/omni_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/install/omni_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_robot build --build-base /home/inhwan/ros2_ws1/build/omni_robot/build install --record /home/inhwan/ros2_ws1/build/omni_robot/install.log --install-scripts $base/lib/omni_robot --single-version-externally-managed install_data
+[1.228s] running egg_info
+[1.229s] writing ../../build/omni_robot/omni_robot.egg-info/PKG-INFO
+[1.229s] writing dependency_links to ../../build/omni_robot/omni_robot.egg-info/dependency_links.txt
+[1.229s] writing entry points to ../../build/omni_robot/omni_robot.egg-info/entry_points.txt
+[1.229s] writing requirements to ../../build/omni_robot/omni_robot.egg-info/requires.txt
+[1.229s] writing top-level names to ../../build/omni_robot/omni_robot.egg-info/top_level.txt
+[1.254s] reading manifest file '../../build/omni_robot/omni_robot.egg-info/SOURCES.txt'
+[1.255s] writing manifest file '../../build/omni_robot/omni_robot.egg-info/SOURCES.txt'
+[1.255s] running build
+[1.255s] running build_py
+[1.255s] running install
+[1.256s] running install_lib
+[1.257s] running install_data
+[1.257s] copying urdf/rs_robot.urdf -> /home/inhwan/ros2_ws1/install/omni_robot/share/omni_robot/urdf
+[1.257s] running install_egg_info
+[1.258s] removing '/home/inhwan/ros2_ws1/install/omni_robot/lib/python3.8/site-packages/omni_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[1.258s] Copying ../../build/omni_robot/omni_robot.egg-info to /home/inhwan/ros2_ws1/install/omni_robot/lib/python3.8/site-packages/omni_robot-0.0.0-py3.8.egg-info
+[1.259s] running install_scripts
+[1.272s] writing list of installed files to '/home/inhwan/ros2_ws1/build/omni_robot/install.log'
+[1.300s] Invoked command in '/home/inhwan/ros2_ws1/src/omni_robot' returned '0': PYTHONPATH=/home/inhwan/ros2_ws1/build/omni_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inhwan/ros2_ws1/install/omni_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_robot build --build-base /home/inhwan/ros2_ws1/build/omni_robot/build install --record /home/inhwan/ros2_ws1/build/omni_robot/install.log --install-scripts $base/lib/omni_robot --single-version-externally-managed install_data

@@ -1,0 +1,14 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50  # 컨트롤러 업데이트 주기 (Hz)
+
+    diff_drive_controller:
+      type: diff_drive_controller/DiffDriveController
+      left_wheel_names: ["left_wheel_joint"]
+      right_wheel_names: ["right_wheel_joint"]
+      publish_rate: 50.0
+      wheel_separation: 0.3  # 바퀴 간 거리
+      wheel_radius: 0.075  # 바퀴 반지름
+      base_frame_id: base_link
+      cmd_vel_timeout: 0.5
+      use_stamped_vel: false
