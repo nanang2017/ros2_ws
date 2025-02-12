@@ -1,0 +1,36 @@
+[5.148s] Invoking command in '/home/kisangpark/ros2_ws/src/omni_wheel': PYTHONPATH=/home/kisangpark/ros2_ws/build/omni_wheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_wheel build --build-base /home/kisangpark/ros2_ws/build/omni_wheel/build install --record /home/kisangpark/ros2_ws/build/omni_wheel/install.log --single-version-externally-managed install_data
+[6.445s] running egg_info
+[6.449s] creating ../../build/omni_wheel/omni_wheel.egg-info
+[6.450s] writing ../../build/omni_wheel/omni_wheel.egg-info/PKG-INFO
+[6.453s] writing dependency_links to ../../build/omni_wheel/omni_wheel.egg-info/dependency_links.txt
+[6.453s] writing entry points to ../../build/omni_wheel/omni_wheel.egg-info/entry_points.txt
+[6.454s] writing requirements to ../../build/omni_wheel/omni_wheel.egg-info/requires.txt
+[6.454s] writing top-level names to ../../build/omni_wheel/omni_wheel.egg-info/top_level.txt
+[6.455s] writing manifest file '../../build/omni_wheel/omni_wheel.egg-info/SOURCES.txt'
+[6.472s] reading manifest file '../../build/omni_wheel/omni_wheel.egg-info/SOURCES.txt'
+[6.476s] writing manifest file '../../build/omni_wheel/omni_wheel.egg-info/SOURCES.txt'
+[6.477s] running build
+[6.477s] running build_py
+[6.479s] creating /home/kisangpark/ros2_ws/build/omni_wheel/build
+[6.480s] creating /home/kisangpark/ros2_ws/build/omni_wheel/build/lib
+[6.481s] creating /home/kisangpark/ros2_ws/build/omni_wheel/build/lib/omni_wheel
+[6.481s] copying omni_wheel/__init__.py -> /home/kisangpark/ros2_ws/build/omni_wheel/build/lib/omni_wheel
+[6.482s] running install
+[6.482s] running install_lib
+[6.485s] creating /home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages/omni_wheel
+[6.485s] copying /home/kisangpark/ros2_ws/build/omni_wheel/build/lib/omni_wheel/__init__.py -> /home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages/omni_wheel
+[6.489s] byte-compiling /home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages/omni_wheel/__init__.py to __init__.cpython-310.pyc
+[6.489s] running install_data
+[6.490s] creating /home/kisangpark/ros2_ws/install/omni_wheel/share/ament_index
+[6.491s] creating /home/kisangpark/ros2_ws/install/omni_wheel/share/ament_index/resource_index
+[6.492s] creating /home/kisangpark/ros2_ws/install/omni_wheel/share/ament_index/resource_index/packages
+[6.493s] copying resource/omni_wheel -> /home/kisangpark/ros2_ws/install/omni_wheel/share/ament_index/resource_index/packages
+[6.494s] copying package.xml -> /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel
+[6.494s] creating /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel/launch
+[6.494s] copying launch/xacro_load.launch.py -> /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel/launch
+[6.495s] copying launch/full.launch.py -> /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel/launch
+[6.495s] copying launch/no_control.launch.py -> /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel/launch
+[6.495s] creating /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel/xacro
+[6.496s] copying xacro/lidar.xacro -> /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel/xacro
+[6.496s] error: can't copy 'xacro/DAE': doesn't exist or not a regular file
+[6.579s] Invoked command in '/home/kisangpark/ros2_ws/src/omni_wheel' returned '1': PYTHONPATH=/home/kisangpark/ros2_ws/build/omni_wheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_wheel build --build-base /home/kisangpark/ros2_ws/build/omni_wheel/build install --record /home/kisangpark/ros2_ws/build/omni_wheel/install.log --single-version-externally-managed install_data

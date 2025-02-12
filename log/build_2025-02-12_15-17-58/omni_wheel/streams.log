@@ -1,0 +1,17 @@
+[3.215s] Invoking command in '/home/kisangpark/ros2_ws/build/omni_wheel': PYTHONPATH=/home/kisangpark/ros2_ws/build/omni_wheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kisangpark/ros2_ws/build/omni_wheel/build --no-deps symlink_data
+[4.498s] running develop
+[5.356s] running egg_info
+[5.357s] writing omni_wheel.egg-info/PKG-INFO
+[5.360s] writing dependency_links to omni_wheel.egg-info/dependency_links.txt
+[5.363s] writing entry points to omni_wheel.egg-info/entry_points.txt
+[5.365s] writing requirements to omni_wheel.egg-info/requires.txt
+[5.366s] writing top-level names to omni_wheel.egg-info/top_level.txt
+[5.370s] reading manifest file 'omni_wheel.egg-info/SOURCES.txt'
+[5.376s] writing manifest file 'omni_wheel.egg-info/SOURCES.txt'
+[5.393s] running build_ext
+[5.394s] Creating /home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages/omni-wheel.egg-link (link to .)
+[5.398s] Installing controller script to /home/kisangpark/ros2_ws/install/omni_wheel/lib/omni_wheel
+[5.399s] 
+[5.400s] Installed /home/kisangpark/ros2_ws/build/omni_wheel
+[5.402s] running symlink_data
+[5.530s] Invoked command in '/home/kisangpark/ros2_ws/build/omni_wheel' returned '0': PYTHONPATH=/home/kisangpark/ros2_ws/build/omni_wheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kisangpark/ros2_ws/build/omni_wheel/build --no-deps symlink_data

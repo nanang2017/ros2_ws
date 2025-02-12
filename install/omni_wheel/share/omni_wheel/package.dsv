@@ -1,0 +1,9 @@
+source;share/omni_wheel/hook/pythonpath.ps1
+source;share/omni_wheel/hook/pythonpath.dsv
+source;share/omni_wheel/hook/pythonpath.sh
+source;share/omni_wheel/hook/ament_prefix_path.ps1
+source;share/omni_wheel/hook/ament_prefix_path.dsv
+source;share/omni_wheel/hook/ament_prefix_path.sh
+source;../../build/omni_wheel/share/omni_wheel/hook/pythonpath_develop.ps1
+source;../../build/omni_wheel/share/omni_wheel/hook/pythonpath_develop.dsv
+source;../../build/omni_wheel/share/omni_wheel/hook/pythonpath_develop.sh

@@ -1,0 +1,16 @@
+[4.647s] Invoking command in '/home/kisangpark/ros2_ws/src/omni_wheel': PYTHONPATH=/home/kisangpark/ros2_ws/build/omni_wheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_wheel build --build-base /home/kisangpark/ros2_ws/build/omni_wheel/build install --record /home/kisangpark/ros2_ws/build/omni_wheel/install.log --single-version-externally-managed install_data
+[6.559s] running egg_info
+[6.559s] writing ../../build/omni_wheel/omni_wheel.egg-info/PKG-INFO
+[6.559s] writing dependency_links to ../../build/omni_wheel/omni_wheel.egg-info/dependency_links.txt
+[6.563s] writing entry points to ../../build/omni_wheel/omni_wheel.egg-info/entry_points.txt
+[6.567s] writing requirements to ../../build/omni_wheel/omni_wheel.egg-info/requires.txt
+[6.580s] writing top-level names to ../../build/omni_wheel/omni_wheel.egg-info/top_level.txt
+[6.602s] reading manifest file '../../build/omni_wheel/omni_wheel.egg-info/SOURCES.txt'
+[6.614s] writing manifest file '../../build/omni_wheel/omni_wheel.egg-info/SOURCES.txt'
+[6.617s] running build
+[6.625s] running build_py
+[6.628s] running install
+[6.629s] running install_lib
+[6.643s] running install_data
+[6.652s] error: can't copy 'xacro/DAE': doesn't exist or not a regular file
+[6.770s] Invoked command in '/home/kisangpark/ros2_ws/src/omni_wheel' returned '1': PYTHONPATH=/home/kisangpark/ros2_ws/build/omni_wheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_wheel build --build-base /home/kisangpark/ros2_ws/build/omni_wheel/build install --record /home/kisangpark/ros2_ws/build/omni_wheel/install.log --single-version-externally-managed install_data

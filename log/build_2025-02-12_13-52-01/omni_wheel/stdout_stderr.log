@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/omni_wheel/omni_wheel.egg-info
+writing ../../build/omni_wheel/omni_wheel.egg-info/PKG-INFO
+writing dependency_links to ../../build/omni_wheel/omni_wheel.egg-info/dependency_links.txt
+writing entry points to ../../build/omni_wheel/omni_wheel.egg-info/entry_points.txt
+writing requirements to ../../build/omni_wheel/omni_wheel.egg-info/requires.txt
+writing top-level names to ../../build/omni_wheel/omni_wheel.egg-info/top_level.txt
+writing manifest file '../../build/omni_wheel/omni_wheel.egg-info/SOURCES.txt'
+reading manifest file '../../build/omni_wheel/omni_wheel.egg-info/SOURCES.txt'
+writing manifest file '../../build/omni_wheel/omni_wheel.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kisangpark/ros2_ws/build/omni_wheel/build
+creating /home/kisangpark/ros2_ws/build/omni_wheel/build/lib
+creating /home/kisangpark/ros2_ws/build/omni_wheel/build/lib/omni_wheel
+copying omni_wheel/__init__.py -> /home/kisangpark/ros2_ws/build/omni_wheel/build/lib/omni_wheel
+running install
+running install_lib
+creating /home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages/omni_wheel
+copying /home/kisangpark/ros2_ws/build/omni_wheel/build/lib/omni_wheel/__init__.py -> /home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages/omni_wheel
+byte-compiling /home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages/omni_wheel/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kisangpark/ros2_ws/install/omni_wheel/share/ament_index
+creating /home/kisangpark/ros2_ws/install/omni_wheel/share/ament_index/resource_index
+creating /home/kisangpark/ros2_ws/install/omni_wheel/share/ament_index/resource_index/packages
+copying resource/omni_wheel -> /home/kisangpark/ros2_ws/install/omni_wheel/share/ament_index/resource_index/packages
+copying package.xml -> /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel
+creating /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel/launch
+copying launch/xacro_load.launch.py -> /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel/launch
+copying launch/full.launch.py -> /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel/launch
+copying launch/no_control.launch.py -> /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel/launch
+creating /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel/xacro
+copying xacro/lidar.xacro -> /home/kisangpark/ros2_ws/install/omni_wheel/share/omni_wheel/xacro
+error: can't copy 'xacro/DAE': doesn't exist or not a regular file

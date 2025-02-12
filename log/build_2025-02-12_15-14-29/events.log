@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000732] (-) JobUnselected: {'identifier': 'camera'}
+[0.000967] (-) JobUnselected: {'identifier': 'gazebo_tutorial'}
+[0.001207] (-) JobUnselected: {'identifier': 'lidar_car'}
+[0.001422] (-) JobUnselected: {'identifier': 'my_robot'}
+[0.001930] (omni_wheel) JobQueued: {'identifier': 'omni_wheel', 'dependencies': OrderedDict()}
+[0.002051] (omni_wheel) JobStarted: {'identifier': 'omni_wheel'}
+[0.093460] (-) TimerEvent: {}
+[0.194928] (-) TimerEvent: {}
+[0.298511] (-) TimerEvent: {}
+[0.399351] (-) TimerEvent: {}
+[0.500933] (-) TimerEvent: {}
+[0.602900] (-) TimerEvent: {}
+[0.704477] (-) TimerEvent: {}
+[0.805907] (-) TimerEvent: {}
+[0.910820] (-) TimerEvent: {}
+[1.012874] (-) TimerEvent: {}
+[1.114480] (-) TimerEvent: {}
+[1.216402] (-) TimerEvent: {}
+[1.317721] (-) TimerEvent: {}
+[1.419681] (-) TimerEvent: {}
+[1.521057] (-) TimerEvent: {}
+[1.622238] (-) TimerEvent: {}
+[1.724146] (-) TimerEvent: {}
+[1.826710] (-) TimerEvent: {}
+[1.928788] (-) TimerEvent: {}
+[2.030592] (-) TimerEvent: {}
+[2.131612] (-) TimerEvent: {}
+[2.232675] (-) TimerEvent: {}
+[2.333886] (-) TimerEvent: {}
+[2.435285] (-) TimerEvent: {}
+[2.537364] (-) TimerEvent: {}
+[2.638337] (-) TimerEvent: {}
+[2.739075] (-) TimerEvent: {}
+[2.840475] (-) TimerEvent: {}
+[2.942116] (-) TimerEvent: {}
+[3.042917] (-) TimerEvent: {}
+[3.149688] (-) TimerEvent: {}
+[3.250487] (-) TimerEvent: {}
+[3.353103] (-) TimerEvent: {}
+[3.458405] (-) TimerEvent: {}
+[3.526789] (omni_wheel) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kisangpark/ros2_ws/build/omni_wheel/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kisangpark/ros2_ws/build/omni_wheel', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'kisangpark', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kisangpark', 'OLDPWD': '/home/kisangpark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '1693', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kisangpark/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kisangpark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kisangpark', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kisangpark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ROS2:@/tmp/.ICE-unix/1654,unix/ROS2:/tmp/.ICE-unix/1654', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cbd205ff_cb4a_491b_a6da_a561fc727b65', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RH3O12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kisangpark/ros2_ws/install/ridar:/home/kisangpark/ros2_ws/install/omni_wheel:/home/kisangpark/ros2_ws/install/my_robot:/home/kisangpark/ros2_ws/install/lidar_car:/home/kisangpark/ros2_ws/install/gazebo_tutorial:/home/kisangpark/ros2_ws/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kisangpark/ros2_ws/build/omni_wheel', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kisangpark/ros2_ws/build/omni_wheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages:/home/kisangpark/ros2_ws/build/omni_wheel:/home/kisangpark/ros2_ws/install/ridar/lib/python3.10/site-packages:/home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages:/home/kisangpark/ros2_ws/install/my_robot/lib/python3.10/site-packages:/home/kisangpark/ros2_ws/install/lidar_car/lib/python3.10/site-packages:/home/kisangpark/ros2_ws/install/gazebo_tutorial/lib/python3.10/site-packages:/home/kisangpark/ros2_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.559539] (-) TimerEvent: {}
+[3.664642] (-) TimerEvent: {}
+[3.768337] (-) TimerEvent: {}
+[3.876122] (-) TimerEvent: {}
+[3.978706] (-) TimerEvent: {}
+[4.080909] (-) TimerEvent: {}
+[4.183010] (-) TimerEvent: {}
+[4.283803] (-) TimerEvent: {}
+[4.385789] (-) TimerEvent: {}
+[4.487797] (-) TimerEvent: {}
+[4.590786] (-) TimerEvent: {}
+[4.692376] (-) TimerEvent: {}
+[4.793557] (-) TimerEvent: {}
+[4.895823] (-) TimerEvent: {}
+[4.998654] (-) TimerEvent: {}
+[5.017019] (omni_wheel) StdoutLine: {'line': b'running develop\n'}
+[5.099605] (-) TimerEvent: {}
+[5.201155] (-) TimerEvent: {}
+[5.302944] (-) TimerEvent: {}
+[5.404066] (-) TimerEvent: {}
+[5.506910] (-) TimerEvent: {}
+[5.610296] (-) TimerEvent: {}
+[5.711924] (-) TimerEvent: {}
+[5.813357] (-) TimerEvent: {}
+[5.915134] (-) TimerEvent: {}
+[6.015873] (-) TimerEvent: {}
+[6.034215] (omni_wheel) StdoutLine: {'line': b'running egg_info\n'}
+[6.034856] (omni_wheel) StdoutLine: {'line': b'writing omni_wheel.egg-info/PKG-INFO\n'}
+[6.036469] (omni_wheel) StdoutLine: {'line': b'writing dependency_links to omni_wheel.egg-info/dependency_links.txt\n'}
+[6.037721] (omni_wheel) StdoutLine: {'line': b'writing entry points to omni_wheel.egg-info/entry_points.txt\n'}
+[6.038359] (omni_wheel) StdoutLine: {'line': b'writing requirements to omni_wheel.egg-info/requires.txt\n'}
+[6.038903] (omni_wheel) StdoutLine: {'line': b'writing top-level names to omni_wheel.egg-info/top_level.txt\n'}
+[6.056827] (omni_wheel) StdoutLine: {'line': b"reading manifest file 'omni_wheel.egg-info/SOURCES.txt'\n"}
+[6.060478] (omni_wheel) StdoutLine: {'line': b"writing manifest file 'omni_wheel.egg-info/SOURCES.txt'\n"}
+[6.069593] (omni_wheel) StdoutLine: {'line': b'running build_ext\n'}
+[6.071253] (omni_wheel) StdoutLine: {'line': b'Creating /home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages/omni-wheel.egg-link (link to .)\n'}
+[6.086426] (omni_wheel) StdoutLine: {'line': b'Installing controller script to /home/kisangpark/ros2_ws/install/omni_wheel/lib/omni_wheel\n'}
+[6.092759] (omni_wheel) StdoutLine: {'line': b'\n'}
+[6.093312] (omni_wheel) StdoutLine: {'line': b'Installed /home/kisangpark/ros2_ws/build/omni_wheel\n'}
+[6.093539] (omni_wheel) StdoutLine: {'line': b'running symlink_data\n'}
+[6.116477] (-) TimerEvent: {}
+[6.218315] (-) TimerEvent: {}
+[6.225896] (omni_wheel) CommandEnded: {'returncode': 0}
+[6.311392] (omni_wheel) JobEnded: {'identifier': 'omni_wheel', 'rc': 0}
+[6.315008] (-) EventReactorShutdown: {}

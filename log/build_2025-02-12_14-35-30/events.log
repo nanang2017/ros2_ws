@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.001441] (-) JobUnselected: {'identifier': 'camera'}
+[0.001553] (-) JobUnselected: {'identifier': 'gazebo_tutorial'}
+[0.001644] (-) JobUnselected: {'identifier': 'lidar_car'}
+[0.001694] (-) JobUnselected: {'identifier': 'my_robot'}
+[0.001748] (omni_wheel) JobQueued: {'identifier': 'omni_wheel', 'dependencies': OrderedDict()}
+[0.001850] (omni_wheel) JobStarted: {'identifier': 'omni_wheel'}
+[0.099761] (-) TimerEvent: {}
+[0.200466] (-) TimerEvent: {}
+[0.301626] (-) TimerEvent: {}
+[0.404374] (-) TimerEvent: {}
+[0.505166] (-) TimerEvent: {}
+[0.606761] (-) TimerEvent: {}
+[0.707481] (-) TimerEvent: {}
+[0.808647] (-) TimerEvent: {}
+[0.911278] (-) TimerEvent: {}
+[1.012701] (-) TimerEvent: {}
+[1.113575] (-) TimerEvent: {}
+[1.215202] (-) TimerEvent: {}
+[1.316465] (-) TimerEvent: {}
+[1.421431] (-) TimerEvent: {}
+[1.522740] (-) TimerEvent: {}
+[1.624902] (-) TimerEvent: {}
+[1.726433] (-) TimerEvent: {}
+[1.827561] (-) TimerEvent: {}
+[1.928833] (-) TimerEvent: {}
+[2.033209] (-) TimerEvent: {}
+[2.135410] (-) TimerEvent: {}
+[2.236895] (-) TimerEvent: {}
+[2.337848] (-) TimerEvent: {}
+[2.395905] (omni_wheel) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kisangpark/ros2_ws/build/omni_wheel/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kisangpark/ros2_ws/build/omni_wheel', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'LANGUAGE': 'en_US:', 'LC_TIME': 'ko_KR.UTF-8', 'USER': 'root', 'HOME': '/root', 'LC_MONETARY': 'ko_KR.UTF-8', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'LC_ADDRESS': 'ko_KR.UTF-8', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RH3O12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build --symlink-install --packages-select omni_wheel', 'LC_NAME': 'ko_KR.UTF-8', 'SHELL': '/bin/bash', 'SUDO_USER': 'kisangpark', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/kisangpark/ros2_ws/build/omni_wheel', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'PYTHONPATH': '/home/kisangpark/ros2_ws/build/omni_wheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages:'}, 'shell': False}
+[2.440095] (-) TimerEvent: {}
+[2.541240] (-) TimerEvent: {}
+[2.642907] (-) TimerEvent: {}
+[2.745722] (-) TimerEvent: {}
+[2.847599] (-) TimerEvent: {}
+[2.949840] (-) TimerEvent: {}
+[3.051890] (-) TimerEvent: {}
+[3.152571] (-) TimerEvent: {}
+[3.254011] (-) TimerEvent: {}
+[3.305659] (omni_wheel) StdoutLine: {'line': b'running develop\n'}
+[3.355174] (-) TimerEvent: {}
+[3.456174] (-) TimerEvent: {}
+[3.557501] (-) TimerEvent: {}
+[3.658639] (-) TimerEvent: {}
+[3.760476] (omni_wheel) StdoutLine: {'line': b'running egg_info\n'}
+[3.761495] (-) TimerEvent: {}
+[3.762815] (omni_wheel) StdoutLine: {'line': b'writing omni_wheel.egg-info/PKG-INFO\n'}
+[3.764277] (omni_wheel) StdoutLine: {'line': b'writing dependency_links to omni_wheel.egg-info/dependency_links.txt\n'}
+[3.764740] (omni_wheel) StdoutLine: {'line': b'writing entry points to omni_wheel.egg-info/entry_points.txt\n'}
+[3.765504] (omni_wheel) StdoutLine: {'line': b'writing requirements to omni_wheel.egg-info/requires.txt\n'}
+[3.766630] (omni_wheel) StdoutLine: {'line': b'writing top-level names to omni_wheel.egg-info/top_level.txt\n'}
+[3.775341] (omni_wheel) StdoutLine: {'line': b"reading manifest file 'omni_wheel.egg-info/SOURCES.txt'\n"}
+[3.779306] (omni_wheel) StdoutLine: {'line': b"writing manifest file 'omni_wheel.egg-info/SOURCES.txt'\n"}
+[3.784110] (omni_wheel) StdoutLine: {'line': b'running build_ext\n'}
+[3.785373] (omni_wheel) StdoutLine: {'line': b'Creating /home/kisangpark/ros2_ws/install/omni_wheel/lib/python3.10/site-packages/omni-wheel.egg-link (link to .)\n'}
+[3.792381] (omni_wheel) StdoutLine: {'line': b'Installing controller script to /home/kisangpark/ros2_ws/install/omni_wheel/lib/omni_wheel\n'}
+[3.795622] (omni_wheel) StdoutLine: {'line': b'\n'}
+[3.796142] (omni_wheel) StdoutLine: {'line': b'Installed /home/kisangpark/ros2_ws/build/omni_wheel\n'}
+[3.796385] (omni_wheel) StdoutLine: {'line': b'running symlink_data\n'}
+[3.861805] (-) TimerEvent: {}
+[3.901508] (omni_wheel) CommandEnded: {'returncode': 0}
+[3.956886] (omni_wheel) JobEnded: {'identifier': 'omni_wheel', 'rc': 0}
+[3.959389] (-) EventReactorShutdown: {}

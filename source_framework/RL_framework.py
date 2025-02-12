@@ -37,7 +37,7 @@ buffer_size = 100000
 num_epochs = 2
 state_dim = 360 #lidar data
 action_dim = 2 # forward backward, left right
-work_dir = "C:/kisang/Ant_control/result_single_contact"
+work_dir = "~/ros2_ws/src/"
 
 
 
